@@ -1,0 +1,3373 @@
+/* Cabeça da pagina */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+  
+}
+
+#whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+body {
+    
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+main {
+    height: auto;
+    width: auto;
+  overflow-x: hidden;
+}
+
+.logoSite {
+    width: 150px;
+    height: 150px;
+    margin-left: 200px;
+
+}
+
+header li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+
+}
+header{
+    justify-content: space-between;
+    width: 100%;
+    
+    
+}
+
+a {
+    color: black;
+    transition: 0.3s;
+}
+
+a:hover {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    position: relative;
+
+}
+
+.icones {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    display: inline;
+    margin-left: 10px;
+
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background-color: #bf2708;
+    height: 150px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    z-index: 10;
+}
+
+.nav-list li {
+    letter-spacing: 2px;
+    margin-left: 32px;
+    display: inline;
+    font-size: 20px;
+}
+
+#iconediv {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.material-symbols-outlined {
+    position: relative;
+    margin-left: 30px;
+    margin-top: -10px;
+    
+
+}
+
+
+#gerar-espaco {
+    display: inline;
+    width: 0px;
+    height: 20px;
+
+}
+
+
+#div-navegacao {
+    margin-right: -200px;
+}
+
+.primeiraSection {
+    margin-top: 0px;
+}
+
+#searchInput {
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    margin-top: 0px;
+    position: relative;
+    margin-left: 0px;
+    z-index: 50;
+}
+
+.pesquisa {
+    background-color: white;
+    display: none;
+}
+
+#resultado {
+
+    margin-top: 0px;
+    margin-left: 0px;
+    position: relative;
+    z-index: 10;
+
+
+}
+#container-resultado{
+    position: absolute;
+    flex-direction: column;
+    height: 0px;
+    margin-top: 50px;
+    margin-left: -300px;
+    
+}
+
+.resultadoNone {
+    display: none;
+}
+
+.resultadoAparece {
+    display: block;
+    margin-top: 0px;
+    position: relative;
+    
+}
+
+.link-pesquisa {
+    display: block;
+}
+
+.imagem-pesquisa-novo {
+    position: relative;
+    margin-top: 25px;
+    margin-left: 30px;
+    border-radius: 20px;
+    height: 80px;
+    width: 140px;
+}
+
+#lupa {
+    cursor: pointer;
+}
+
+
+.nome-pesquisa {
+
+    font-size: 15px;
+    position: absolute;
+    height: 130px;
+    width: 430px;
+    line-height: 120px;
+    margin-left: -170px;
+}
+
+.nome-paragrafo {
+    margin-left: 190px;
+    font-size: 20px;
+    color: black;
+}
+#menu-amburguer{
+    height: 950px;
+   display: none;
+   margin-right: 0px;
+   margin-left: 50%;
+   margin-top: 790px;
+   width: 50%;
+   position: fixed;
+   background-color:#CBA075;
+    border: 2px solid black;
+    z-index: 50;
+    flex-direction: column;
+}
+#cabeça-menu-amburguer{
+    background-color: #bf2708;
+    width: 100%;
+    height: 120px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+}
+#menu-amburguer-logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 6%;
+    margin-top: 9px;
+}
+#titulo-menu-amburguer{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: black;
+    margin-top: 47px;
+    margin-left: 38px;
+}
+.material-symbols-outlined{
+    margin-top: 44px;
+    color: black;
+    height: 100px;
+    cursor: pointer;
+}
+.menu-lista{
+    border-top: 2px solid #CBA075;
+    background-color: #bf2708;
+    margin-left: 0px;
+    width:100%;
+    height: 100px;
+}
+.menu-link{
+    font-size: 20px;
+    margin-left: 20px;
+    height: auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+.fechar{
+    height: 30px;
+    margin-top: 42px;
+    margin-right: 4%;
+    
+}
+.icone-menu{
+    display: none;
+    cursor: pointer;
+    height: 25px;
+    margin-left: 50px;
+    margin-top: -7px;
+}
+
+/* Carrossel mostrando as partes principais da pagina */
+
+section {
+    display: flex;
+    position: relative;
+    background-color: black;
+
+}
+.carousel-indicators{
+    z-index: 1;
+}
+
+.carrosselInicial {
+    width: 100%;
+    height: auto;
+
+
+}
+
+.carousel-inner .item {
+    -webkit-transition: -webkit-transform 2s ease;
+    -moz-transition: -moz-transform 2s ease;
+    -o-transition: -o-transform 2s ease;
+    transition: transform 2s ease;
+    height: auto;
+}
+/* Textos e formatação do carrossel */
+
+#carrossel-Carnes-Nobres {
+    
+    width: 600px;
+    height: 100px;
+    margin-left: -100px;
+    margin-top: 200px;
+    z-index: 2;
+    position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+#paragarfo-complemento-nobres{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 300px;
+    margin-left: -50px;
+}
+
+#fundo-carrosel-1 {
+    background-color: rgba(0, 0, 0, 0.39);
+    margin-left: -400px;
+    margin-top: 0px;
+    width: 2000;
+    height: 800px;
+}
+
+#texto-Carnes-Nobres {
+    margin-top: 0px;
+    margin-left: 0px;
+    position: relative;
+    font-size: 70px;
+    color: white;
+}
+
+.item{
+  width: 100%;
+    height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#carrossel-Carnes-Exoticas {
+  border: 2px solid white;
+  width: 600px;
+  height: 100px;
+  margin-left: -20vw;
+  margin-top: 3vw;
+  z-index: 2;
+  position: fixed; /* ou position: absolute; */
+  top: 40%; /* centraliza verticalmente */
+  left: 70%; /* centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* centraliza completamente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#centralizando-carrossel-exoticas{
+ 
+margin-left: -370px;
+  margin-top: 30px;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fundo-carrosel-2 {
+    background-color: rgba(0, 0, 0, 0.39);
+    height: 800px;
+    margin-left: -400px;
+    margin-top: 0px;
+    width: 1900;
+    position: relative;
+   
+}
+
+#texto-Carnes-Exoticas {
+    margin-top: 0px;
+    margin-left: 0px;
+    position: relative;
+    font-size: 50px;
+    color: white;
+    
+}
+#paragarfo-complemento-exoticas{
+    
+    font-size: 20px;
+    margin-top: 12%;
+    margin-left: 65px;
+  color: white;
+   position: fixed; /* ou position: absolute; */
+  top: 30%; /* centraliza verticalmente */
+  left: 46%; /* centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* centraliza completamente */
+    
+    
+}
+
+
+#carrossel-entrega {
+    
+   
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    color: #CBA075;
+  
+  width: 31.8vw;
+  height: auto;
+  padding: 5px;
+  margin-left: 9vw;
+  margin-top: 4vw;
+  z-index: 2;
+  position: fixed; /* ou position: absolute; */
+  top: 10%; /* centraliza verticalmente */
+  left: 70%; /* centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* centraliza completamente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6vw;
+   
+}
+
+.carousel-caption {
+    width: 100%;
+    height: 100%;
+
+}
+
+.card-title-1 {
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+#centraliza-carrossel-entrega{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#paragrafo-entrega {
+      
+  width: 31.8vw;
+  height: auto;
+  padding: 5px;
+  margin-left: 9vw;
+  margin-top: 4vw;
+  z-index: 2;
+  position: fixed; /* ou position: absolute; */
+  top: 40%; /* centraliza verticalmente */
+  left: 70%; /* centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* centraliza completamente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3vw;
+  
+    
+}
+
+/* section carnes nobre */
+
+#section-Carnes-Nobres {
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 100%;
+  height: 2500px;
+  padding-bottom: 300px;
+  background-color: black;
+
+
+}
+
+#titulo-carnes-nobres {
+    background-color: #bf2708;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    margin-bottom: 800px;
+    color: white;
+    font-style: italic;
+    font-family: 'Anton', sans-serif;
+    font-family: 'PT Serif', serif;
+    z-index: 2;
+    font-size: 40px;
+
+}
+
+
+#card-paragrado-carnes-nobres {
+    height: auto; /* 50% da altura da tela */
+    width: 50vw; /* 50% da largura da tela */
+    position: absolute;
+    margin-top: 400px; /* centralizar verticalmente */
+    left: 30%; /* centralizar horizontalmente */
+    transform: translate( -50%); /* centralizar exatamente no meio */
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: black;
+    box-shadow: 10px 10px 100px gray;
+    max-width: 90%; /* limite máximo de largura em relação à tela */
+    padding-right: 100px;
+    margin-bottom: 800px;
+    overflow: hidden;
+    
+}
+#seprando-card-carroussel{
+  position: relative;
+  margin-left: -1000px;
+  margin-top: 1600px;
+  width: 100%;
+  height: 300px;
+  background-color: red;
+}
+
+
+#paragrafo-Carnes-Nobres1 {
+    margin-top: 120px;
+    margin-left: 120px;
+    color: white;
+    position: relative;
+    font-size: 25px;
+    width: auto;
+    
+
+}
+
+#paragrafo-Carnes-Nobres2 {
+    margin-top: 10px;
+    margin-left: 120px;
+    color: white;
+    position: relative;
+    font-size: 25px;
+    width: auto;
+    
+
+}
+
+#paragrafo-Carnes-Nobres3 {
+    margin-top: 10px;
+    margin-left: 120px;
+    color: white;
+    position: relative;
+    font-size: 25px;
+    width: auto;
+    
+
+}
+
+#paragrafo-Carnes-Nobres4 {
+    margin-top: 10px;
+    margin-left: 120px;
+    color: white;
+    position: relative;
+    font-size: 25px;
+    width: auto;
+    padding-bottom: 150px;
+    
+
+}
+
+
+#carnes-nobres-h1 {
+
+    z-index: 2;
+
+
+}
+#botao{
+ margin-top: 0px;
+ 
+}
+#carnes-nobres-div {
+
+    width: 485px;
+    height: 85px;
+    margin-top: 100px;
+    margin-left: 7px;
+    position: relative;
+
+}
+
+#bandeira-direita {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    z-index: 1;
+    margin-left: -11.5px;
+}
+
+.alinhamento-h2{
+    display: flex;
+    align-items: center;
+}
+#centro {
+  width: 660px;
+  position: absolute;
+  margin-top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#centro-formulario {
+  width: 660px;
+  position: absolute;
+  margin-top: -1600px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#centro-endereco{
+  position: absolute;
+   width: 660px;
+  margin-top: -1000px;
+  
+}
+
+#centro {
+  
+  max-width: 800px;
+  margin-top: 100px;
+  
+}
+#section-carroussel{
+  margin-top: 1600px;
+  heigth: 700px;
+  position:absolute;
+  border: 2 px solid blue;
+  margin-left: 0 px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+}
+#text-nobres{
+  color:black;
+  font-size: 15px;
+  margin-top:8px;
+}
+.card{
+  height:800px;
+}
+#alinhamento-bandeira-nobres {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  height: 100px;
+  width: 660px;
+  
+}
+
+#bandeira-esquerda {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    z-index: 1;
+    margin-right: -15px;
+}
+
+
+
+.imagem-carne-flutuando {
+    position: absolute;
+    z-index: 5;
+    margin-top: 400px;
+    margin-left: 1100px;
+    transform: translate(0px);
+    animation: float 5s ease-in-out infinite;
+
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-50px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+#div-carne-flutuando {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 800px;
+  width: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 500px;
+  margin-top: 280px;
+
+}
+
+#sal {
+    z-index: 5;
+    margin-top: 50px;
+    margin-left: -400px;
+}
+
+#sal-preto {
+    margin-left: 200px;
+    margin-top: -150px;
+    width: 300px ;
+}
+
+#carne1 {
+    margin-top: 200px;
+    margin-left: -100px;
+}
+
+#carne2 {
+    margin-top: 690px;
+    margin-left: -100px;
+}
+
+#carne3 {
+    margin-top: 980px;
+    margin-left: -300px;
+}
+
+#carne4 {
+    margin-top: 1200px;
+    margin-left: 250px;
+    width: 300px;
+    height: 400px;
+}
+
+#champion {
+    margin-top: -50px;
+    margin-left: -100px;  
+}
+
+#pimenta {
+    margin-top: 750px;
+    margin-left: 250px;
+}
+
+#tempero {
+    margin-top: 200px;
+    margin-left: 0px;
+    width: 500px ;
+}
+#bananinhaAngus{
+  padding-top: 10px;
+  padding-bottom: 22px;
+}
+#paragradoBananinha{
+  padding-bottom: 40px;
+}
+#paragrafoAncho{
+  padding-bottom: 40px;
+}
+#cowboyAngus{
+  padding-top: 10px;
+  padding-bottom: 22px;
+}
+#paragrafoCowboyangus{
+  padding-bottom: 40px;
+}
+#picanhaAngus{
+  padding-top: 10px;
+  padding-bottom: 22px;
+}
+#paragrafoPicanhaangus{
+  padding-bottom: 40px;
+}
+#denverAngus903{
+  padding-top: 10px;
+  padding-bottom: 22px;
+}
+#paragrafoDenverangus903{
+  padding-bottom: 40px;
+}
+#fraldinhaAngus{
+  padding-top: 10px;
+  padding-bottom: 22px;
+}
+#paragrafoFraldinhaAngus{
+  padding-bottom: 40px;
+}
+#logo-transicao {
+  margin-left: 30px;
+  transition: opacity 0.5s ease-in-out;
+}
+#logo-transicao-carnes{
+margin-left: 10px;
+}
+
+
+
+#transição-formulario{
+  margin-left: 40px ;
+}
+
+
+
+
+
+
+
+.titulo-card-tradicionais {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  margin-left: 10px;
+  
+}
+
+.paragrafo-card-tradicionais {
+  color: white;
+  padding-bottom: 20px;
+  margin-left: 10px;
+  
+}
+
+.carousel-de-cards {
+  position: relative ;
+  width: 1265px;
+  overflow: hidden;
+  height: auto;
+}
+
+
+
+#move{
+  position: relative;
+  height: auto;
+  width: auto;
+  margin-top: 1700px;
+  left: 15%;
+  
+}
+.carousel-container {
+  width: 1200px;
+  
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-card {
+  padding: 2px;
+  background-color: #9e2810cb;
+  margin-left: 10px;
+  height: 550px;
+  
+}
+
+.carousel-prev-card,
+.carousel-next-card {
+  position: absolute;
+ 
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: #CBA075;
+  border: none;
+  color: #fff;
+  
+}
+
+.carousel-prev-card {
+  left: 0;
+  margin-top: 300px;
+  margin-left: -150px;
+}
+
+.carousel-next-card {
+  right: 0;
+    margin-top: -250px;
+  margin-right: -150px;
+}
+
+.carousel-prev-card:focus,
+.carousel-next-card:focus {
+  outline: none;
+}
+
+.carousel-prev-card:hover,
+.carousel-next-card:hover {
+  background-color: #a66f54;
+}
+
+.carousel-prev-card:active,
+.carousel-next-card:active {
+  background-color: #8c5943;
+}
+
+
+
+
+
+
+
+
+
+#transicao-carnes-nobres {
+    background: url(casa-de-carnes-rosa-banner.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section carnes nobres */
+
+#titulo-Cortes-Exoticos{
+    background-color: #bf2708;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    margin-bottom: 800px;
+    color: white;
+    font-style: italic;
+    font-family: 'Anton', sans-serif;
+    font-family: 'PT Serif', serif;
+    z-index: 2;
+    font-size: 40px;
+}
+
+#section-cortes-exoticos {
+    width: 100%;
+    height: 3100px;
+    background-color: #ff4444;
+    position: relative;
+
+}
+
+.alinhamento-exoticos {
+    display: flex;
+    align-items: center;
+}
+
+#alinhamento-bandeira-exoticos {
+    width: 660px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 630px;
+
+}
+
+#bandeira-esquerda {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    z-index: 1;
+    margin-right: -15px;
+}
+
+#borda-h2 {
+    border: 1px dashed white;
+    width: 480px;
+    height: 85px;
+    margin-left: 10px;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#paragrafo-carnes-exoticas-1 {
+    margin-top: 100px;
+    margin-left: 20px;
+    color: white;
+    position: relative;
+    font-size: 1.3vw;
+    width: 100%;
+
+
+}
+
+#paragrafo-carnes-exoticas-2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    position: relative;
+    font-size: 1.3vw;
+    width: 100%;
+
+
+}
+
+#paragrafo-carnes-exoticas-3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    position: relative;
+    font-size: 1.3vw;
+    width: 100%;
+
+
+}
+
+#paragrafo-carnes-exoticas-4 {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    position: relative;
+    font-size: 1.3vw;
+    width: 100%;
+padding-bottom: 100px;
+
+}
+
+#card-paragrafo-exoticas {
+    padding-bottom: 1px;
+    padding-right: 50px ;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: #bf2708;
+    box-shadow: 10px 10px 100px gray;
+
+    height: auto; /* 50% da altura da tela */
+    width: 50vw; /* 50% da largura da tela */
+    left: 30%; /* centralizar horizontalmente */
+    transform: translate( -50%); /* centralizar exatamente no meio */
+    max-width: 90%; /* limite máximo de largura em relação à tela*/
+    
+}
+
+#homem-segurando-porco {
+    position: absolute;
+    margin-top: 280px;
+    left: 50%;
+    height: 63.8vw;
+    width: 47.8vw;
+  
+}
+.card{
+  width: 310px;
+    height: 480px;
+}
+.imagem-exoticas{
+  width: 290px;
+  height: 250px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.card-title-2{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.card-text{
+  margin-top: 20px;
+  margin-left: 10px;
+  color: white;
+}
+.button-exoticas{
+  margin-top: 40px;
+  margin-left: 10px;
+  
+}
+#button-margin{
+    margin-top: 40px;
+}
+
+.btn{
+  margin-top: 0px;
+  margin-left: 10px;
+  
+}
+
+#card-carnes-exoticas-1 {
+    width: 310px;
+    height: 480px;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 1800px;
+    background-color: #000;
+    color: white;
+
+}
+
+#card-carnes-exoticas-2 {
+    width: 310px;
+    height: 480px;
+    position: absolute;
+    margin-left: 31%;
+    margin-top: 1800px;
+    background-color: #000;
+    color: white;
+
+}
+
+#card-carnes-exoticas-3 {
+    width: 310px;
+    height: 480px;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 1800px;
+    background-color: #000;
+    color: white;
+
+}
+
+#card-carnes-exoticas-4 {
+    width: 310px;
+    height: 480px;
+    position: absolute;
+    margin-left: 79%;
+    margin-top: 1800px;
+    background-color: #000;
+    color: white;
+
+}
+
+#card-carnes-exoticas-5 {
+    width: 310px;
+    height: 480px;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 2350px;
+    background-color: #000;
+    color: white;
+
+}
+
+#card-carnes-exoticas-6 {
+    width: 310px;
+    height: 480px;
+    position: absolute;
+    margin-left: 31%;
+    margin-top: 2350px;
+    background-color: #000;
+    color: white;
+
+}
+
+#card-carnes-exoticas-7 {
+    width: 310px;
+    height: 480px;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 2350px;
+    background-color: #000;
+    color: white;
+   
+}
+
+#card-carnes-exoticas-8 {
+    width: 310px;
+    height: 480px;
+    position: absolute;
+    margin-left: 79%;
+    margin-top: 2350px;
+    background-color: #000;
+    color: white;
+    
+}
+#botao-avestruz, #botao-coelho, #botao-pato{
+  margin-top: 20px;
+}
+
+.card-title-2{
+font-weight: bold;
+color: #ff4444;
+font-size: 20px;
+border-bottom: 2px solid #ff4444;
+padding-bottom: 5px;
+}
+
+
+
+#transicao-exoticas {
+  background: url(fundoexoticas.png) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#transicao-sobre{
+  background: url(Picanha_in_naturaV2_7fc0caf7-c0b4-4649-81e4-a7f75caa0a96.png) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+#fundo-transicao-exoticas{
+   background-color: rgba(0, 0, 0, 0.39);
+  height: 400px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  z-index: 10;
+}
+
+#fundo-transicao-sobre{
+   background-color: rgba(0, 0, 0, 0.39);
+  height: 400px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  z-index: 10;
+}
+/* section sobre */
+
+
+
+#titulo-Sobre{
+    background-color: #bf2708;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    margin-bottom: 800px;
+    color: white;
+    font-style: italic;
+    font-family: 'Anton', sans-serif;
+    font-family: 'PT Serif', serif;
+    z-index: 2;
+    font-size: 40px;
+}
+
+#sobre {
+    width: 100%;
+    height: 2500px;
+    border-bottom: 2px solid #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+
+.alinhamento-sobre {
+    display: flex;
+    align-items: center;
+}
+
+#alinhamento-bandeira-sobre {
+    width: 660px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 620px;
+
+
+}
+
+#sobre-acougue {
+    width: 50vw;
+    height: 26vw;
+    background-color: #bf2708;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+  margin-left: 0px;
+}
+
+#sobre-delicias-da-carne{
+  width: 15vw;
+  height: 15vw;
+}
+
+#div-sobre-acougue-1 {
+    width: 1800px;
+    height: 500px;
+    position: absolute;
+    margin-top: 500px;
+
+}
+
+#paragrafo-acougue {
+    width: 50vw;
+    height: 26vw;
+    border-top: 2PX solid #bf2708;
+    border-left: none;
+    right: -50%;
+    font-size: 1vw;
+    color: #f5f5f5;
+    margin-top: 500px;
+  position: relative;
+  text-align: right;
+  margin-left: -0.7vw;
+}
+
+#div-sobre-acougue-2 {
+    width: 100%;
+    height: 26.6vw;
+    position: relative;
+    
+  
+  float: right;
+  margin-left: 0px;
+}
+
+#titulo-acougue {
+    font-size: 1.46vw ;
+    margin-right: 2.7vw;
+    
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    color: #CBA075;
+}
+
+#historia-delicias-da-carne-1 {
+    margin-right: 2.7vw;
+    padding-left: 2.18vw;
+}
+
+#historia-delicias-da-carne-2 {
+    position: relative;
+    margin-top: 1.09vw;
+    margin-right: 2.7vw;
+    padding-left: 2.18vw;
+}
+
+#historia-delicias-da-carne-3 {
+    position: relative;
+    margin-top: 1.09vw;
+    margin-right: 2.7vw;
+    padding-left: 2.18vw;
+}
+
+#sobre-entrega {
+  position: relative;
+  top: 13.3vw;
+  width: 49vw;
+  height: 26.6vw;
+  transform: translate(-50%, -50%);
+  left: 74.5vw;
+  
+}
+#sobre-entrega-img{
+  position: absolute;
+  
+  width: 100%;
+  height: 100%;
+  
+  
+  
+}
+
+#paragrafo-caminhao {
+  position: absolute;
+  top: 50%;
+  left: 27vw;
+  transform: translate(-50%, -50%);
+  width: 53.2vw;
+  height: 26.6vw;
+  text-align: left;
+  color: white;
+  font-size: 1.5vw;
+ 
+}
+
+#titulo-entregas {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 3vw;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    color: #CBA075;
+  font-size: 1.5vw;
+}
+
+#paragrafo-entrega-caminhao {
+    margin-top:10%;
+    position: absolute;
+    margin-left: 3vw;
+    line-height: 150%;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#div-sobre-acougue-3 {
+  width: 100%;
+  
+  height: 500px;
+  position: relative;
+ 
+}
+
+#sua-casa {
+  width: 50vw;
+  height: 26vw;
+}
+
+#paragrafo-casa {
+  border-bottom: 2px solid #bf2708;
+  border-left: none;
+  position: absolute;
+  width: 49.27vw;
+  height: 26vw;
+  top: 50%;
+  left: 50%;
+  right: 0%;
+  transform: translate(-50%);
+  text-align: right;
+  font-size: 1vw;
+  color: white;
+  margin-top: -250px;
+  margin-left: 25.1vw;
+}
+
+#foto-entrega {
+  width: 100%;
+  height: 100%;
+}
+
+#titulo-atendimento {
+  margin-top: 2.6vw;
+  margin-right: 5vw;
+  padding-bottom: 1.1vw;
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+  color: #CBA075;
+  font-size: 1.3vw;
+}
+
+#paragrafo-atendimento-1 {
+  margin-right: 4.3vw;
+  padding-left: 2.18vw;
+  line-height: 1.5vw;
+}
+
+#paragrafo-atendimento-2 {
+  position: relative;
+  margin-top: 0.5vw;
+  margin-right: 4.3vw;
+  padding-left: 2.18vw;
+  line-height: 1.5vw;
+}
+
+#paragrafo-atendimento-3 {
+  position: relative;
+  margin-top: 0.5vw;
+  margin-right: 4.3vw;
+  padding-left: 2.18vw;
+}
+
+/* section formulario  */
+
+#nomeLabel{
+  margin-left: -1105px;
+}
+#emailLabel{
+  margin-left: -1105px;
+}
+#telefoneLabel{
+  margin-left: -1090px;
+}
+#campo-texto-label{
+  margin-left: -1070px;
+  margin-top: 20px;
+}
+#checkboxLabel{
+  margin-left: -560px;
+  display: inline;
+}
+
+.alinhamento-formulario {
+    display: flex;
+    align-items: center;
+  
+}
+
+#alinhamento-bandeira-formulario {
+    width: 660px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 630px;
+
+}
+#borda-formulario{
+   border: 1px dashed white;
+    width: 480px;
+    height: 85px;
+    margin-left: 10px;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulario {
+    width: 100%;
+    height: 2000px;
+    background-color: #CBA075;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div-formulario{
+    height: 1300px;
+    width: 1500px;
+    border-radius: 50px;
+    border: 2px solid #bf2708;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    position: absolute;
+  flex-direction: column;
+
+}
+
+
+.formulario-nome{
+  width: 450px;
+  height: 40px;
+  margin-left: -700px;
+ 
+}
+.formulario-email{
+  width: 450px;
+  height: 40px;
+  margin-left: -700px;
+}
+.formulario-telefone{
+  width: 450px;
+  height: 40px;
+  margin-left: -700px;
+}
+
+ /* PARTE DE CHECKBOX */
+.checkbox-carnes-exóticas{
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+  background: white;
+}
+.container-checkbox{
+  display: flex;
+  align-items: center;
+  margin-left: -630px;
+  padding: 30px;
+}
+.paragrafo-checkbox{
+  margin-left:  15px;
+  font-size: 20px;
+}
+
+.checkbox-carnes-tradicionais{
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: none;
+  background: white;
+}
+
+.checkbox-ambas{
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: white;
+}
+
+/* SELECIONAR TIPO DE CARNES  */
+.container-select-itens{
+  margin-left: -650px;
+  padding-bottom: 30px;
+}
+
+.select-itens{
+  width: 350px;
+  height: 50px;
+  border-radius: 20px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: white;
+  
+}
+.paragrafo-select-itens{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.div-itens{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 50px;
+  cursor: pointer;
+  position: relative;
+  margin-top: -2px;
+  
+  
+}
+.div-itens:hover{
+  border: 2px solid black;
+  border-radius: 20px;
+  z-index: 9;
+}
+.container-itens {
+
+  border-radius: 20px;
+  width: 350px;
+  box-shadow: 0px 10px 50px  gray;
+  border: 2px solid  gray;
+  background-color: white;
+  
+}
+
+.esconde-itens{
+  display: none;
+    border-radius: 20px;
+  width: 350px;
+ box-shadow: 0px 10px 50px  gray;
+  
+}
+
+/* Comunicação */
+
+#todos{
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#primeiro{
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+#segundo{
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 20px;
+ cursor: pointer;
+}
+
+.container-comunicao {
+  display: flex;
+  align-items: center;
+  justify-content: column;   
+  margin-left: -825px;
+  padding: 20px;
+}
+.titulo-comunicacao{
+  margin-left: -950px;
+   padding-top: 20px;
+}
+
+.checkbox-comunicacao-todos {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  background: white;
+}
+
+.checkbox-comunicacao-email {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 20px;
+  background: white;
+}
+
+.checkbox-comunicacao-sms {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 20px;
+  background: white;
+}
+
+.checkDesmarcado {
+  border: 2px solid black;
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+  background: white;
+}
+
+.paragrafo-comunicao {
+  margin-left: 10px;
+}
+.checkMarcado {
+  position: relative;
+  appearance: none;
+  background-color: #bbb;
+  transition: all 0.3s;
+  border: 2px solid rgb(120, 190, 120);
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.checkMarcado::before {
+  content: '';
+  position: absolute;
+  border: solid #fff;
+  display: block;
+  width: 0.6em;
+  height: 0.9em;
+  border-width: 0 0.2em 0.2em 0;
+  z-index: 1;
+  right: calc(50% - 0.4em);
+  top: calc(50% - 0.6em);
+  transform: rotate(0deg);
+  transition: all 0.3s;
+  transform-origin: center center;
+}
+
+.checkMarcado {
+  background-color: rgb(120, 190, 120);
+}
+
+.checkMarcado::before {
+  opacity: 1;
+  transform: rotate(405deg);
+}
+
+
+.checkMetade {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  appearance: none;
+  background-color: #bbb;
+  transition: all 0.3s;
+  border: 2px solid rgb(120, 190, 120);
+}
+
+.checkMetade::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 8px;
+  height: 2px;
+  background-color: #fff;
+  z-index: 1;
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s;
+}
+
+.checkMetade {
+  animation: a 0.3s ease-in forwards;
+  background-color: rgb(120, 190, 120);
+}
+
+.checkMetade::before {
+  opacity: 1;
+}
+.button{
+  width: 500px;
+  height: 50px;
+  margin-left: -650px;
+  margin-top: 40px;
+  position: relative;
+  
+}
+/* campo texto */
+.campo-texto{
+  width: 500px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: -650px;
+  
+}
+
+
+/* aviso */
+
+.aviso-nome {
+  display: none;
+  color:red;
+}
+.aviso-email{
+  display: none;
+  color: red;
+}
+.aviso-tel{
+  display: none;
+  color: red;
+}.aviso-select-carnes{
+  display: none;
+   color: red;
+}
+.aviso-checkbox-comunicacao{
+  display: none;
+   color: red;
+}
+
+.aviso-checkbox-carnes{
+  display: none;
+   color: red;
+}
+.aviso-campo-texto{
+   display: none;
+   color: red;
+}
+
+.borda{
+  border: 2px solid black;
+  border-radius: 20px;
+  
+  cursor: pointer;
+  font-size: 20px;
+}
+#imagem-formulario{
+ position: absolute;
+  height: 1000px;
+  width: 650px;
+  margin-top: 300px;
+  margin-left:  750px;
+ 
+}
+
+/* section Endereço  */
+
+
+
+
+#titulo-Endereco{
+    background-color: #bf2708;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    margin-bottom: 800px;
+    color: white;
+    font-style: italic;
+    font-family: 'Anton', sans-serif;
+    font-family: 'PT Serif', serif;
+    z-index: 2;
+    font-size: 40px;
+}
+
+#google-maps {
+  
+    position: relative;
+    margin-left: 15vw;
+    display: block;
+}
+
+#section-google-maps {
+    height: 1300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.alinhamento-localizacao {
+    display: flex;
+    align-items: center;
+}
+
+#alinhamento-bandeira-localizacao {
+    width: 660px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 650px;
+
+}
+
+#bandeira-esquerda {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    z-index: 1;
+    margin-right: -15px;
+}
+
+#borda-h3 {
+    border: 1px dashed white;
+    width: 480px;
+    height: 85px;
+    margin-left: 10px;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#div-google-maps {
+    height: 800px;
+    width: 1500px;
+    border-radius: 50px;
+    border: 2px solid #bf2708;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+.info-container {
+    max-width: 500px;
+    position: relative;
+    color: #f5f5f5;
+  padding-bottom: 20px;
+   
+}
+
+
+
+.info-item {
+    margin-top: 20px;
+
+}
+
+h2{
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 1em;
+    margin: 0;
+}
+
+
+
+
+footer {
+    margin-bottom: 0px;
+    width: 100%;
+    height: 552px;
+    background-color: #bf2708;
+
+}
+
+
+#imagem-footer {
+    float: left;
+    margin-left: 80px;
+    margin-top: 50px;
+  
+}
+
+#email-footer {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -260px;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+#botao-footer {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -60px;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #000;
+    color: #f5f5f5;
+}
+
+#div-navegacao-footer {
+    float: left;
+    margin-left: 100px;
+    display: inline;
+    margin-top: 10px;
+ 
+
+}
+
+.nav-list-footer {
+    display: inline;
+    margin-left: 200px;
+    font-size: 30px;
+    margin-top: 20px;
+    z-index: 10;
+
+}
+
+#nav-list-1 {
+    margin-left: 0px;
+
+}
+
+
+#informacoes-footer {
+    height: 0px;
+    width: 99vw;
+   
+    position: absolute;
+    margin-left: -3px;
+    margin-top: 0px;
+  
+}
+
+#footer-compras {
+    height: 50px;
+    width: 500px;
+    border: 2px solid #000;
+    color: white;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -2px;
+
+}
+
+#informacoes-compras {
+    height: 505px;
+    width: 500px;
+    border: 2px solid #000;
+    color: white;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 46px;
+ 
+}
+
+#titulo-compras {
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+#paragrafo-compras,
+ul {
+    list-style: none;
+}
+
+#paragrafo-compras,
+li {
+  font-size: 20px;
+    padding-top: 30px;
+  padding-left: 20px;
+}
+
+#informacoes-saibamais {
+    height: 505px;
+    width: 500px;
+    border: 2px solid #000;
+    color: white;
+    position: absolute;
+    margin-left: 897px;
+    margin-top: 46px;
+}
+
+#footer-saiba-mais {
+    height: 50px;
+    width: 500px;
+    border: 2px solid #000;
+    color: white;
+    position: absolute;
+    margin-left: 897px;
+    margin-top: -2px;
+}
+
+#titulo-saiba-mais {
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+#saibamais-li-1 {
+    padding-top: 55px;
+}
+
+#saibamais-li-2 {
+    padding-top: 40px;
+}
+
+#saibamais-li-3 {
+    padding-top: 45px;
+}
+
+#saibamais-li-4 {
+    padding-top: 45px;
+}
+
+#div-forma-pagamento {
+    height: 50px;
+    width: 469px;
+    border: 2px solid #000;
+    color: white;
+    position: absolute;
+    margin-left: 1396px;
+    margin-top: -2px;
+}
+
+#div-titulo-pagamento {
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+
+#informacoes-pagamento {
+    height: 505px;
+    width: 469px;
+    border: 2px solid #000;
+    color: white;
+    position: absolute;
+    margin-left: 1396px;
+    margin-top: 46px;
+}
+
+#paragrafo-pagamento {
+    height: 352px;
+    width: 467px;
+    border: 2px solid #000;
+    color: white;
+    position: absolute;
+    margin-left: -2px;
+    margin-top: -2px;
+
+}
+
+.imagem-pagamento {
+    position: relative;
+    margin-top:30px;
+    margin-left: 50px;
+}
+
+#redes {
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: -2px;
+    position: absolute;
+    height: 50px;
+    width: 469.5px;
+    border: 2px solid black;
+}
+
+#redes-titulo {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+
+}
+
+#paragrafo-redes {
+    height: 200px;
+    width: 465px;
+    margin-top: 200px;
+}
+
+.imagem-rede {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+/*----------carrossel das carnes nobres----------*/
+
+
+
+/* madia query */
+@media (max-width: 1868px) {
+  footer{
+  height: 2300px;
+}
+#informacoes-saibamais{
+   margin-top: 1141px;
+  margin-left: 0px;
+  width: 100%;
+}
+  #footer-saiba-mais{
+    margin-top: 1093px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  #footer-compras{
+    margin-left: 0px;
+    margin-top: 597px;
+    width: 98.7%;
+  }
+  #informacoes-compras{
+      margin-left: 0px;
+     margin-top: 645px;
+     width: 99%;
+  }
+#div-forma-pagamento{
+  margin-top: 1588px;
+  margin-left: 0px;
+  width: 100%;
+}
+  #informacoes-pagamento{
+    margin-top: 1588px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  
+#informacoes-footer{
+  width: 99vw;
+  margin-top: -100px;
+}
+  #footer-compras{
+    width: 99vw;
+  }
+  #informacoes-compras{
+    width: 98.8vw;
+  }
+  #div-imagem-footer{
+    position: absolute;
+    margin-left: 0px;
+    width: 98vw;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+  
+  }
+  #imagem-footer{
+    position: relative;
+    margin-top: -50px;
+    margin-left: 5vw;
+    
+    
+  }
+  #email-footer{
+    
+    left: 10px;
+    width: 95vw;
+    margin-top: 300px;
+    margin-left: -3px;
+  }
+  #botao-footer{
+    left: 92vw;
+    margin-top: 300px;
+    width: 120px;
+  }
+#redes{
+  width: 100.25%;
+}
+.imagem-pagamento {
+    position: relative;
+    margin-top:80px;
+    margin-left: 50px;
+}
+ 
+
+  
+}
+
+@media (max-width: 1735px) {
+  .carousel-de-cards {
+  position: relative ;
+  width: 950px;
+
+  
+}
+  #move{
+    position: absolute;
+    
+    left: 22%;
+    transform: translate( 0%);
+  }
+  #section-cortes-exoticos {
+   height: 3700px;
+    
+  }
+  #card-carnes-exoticas-1{
+    margin-left: 0vw;
+    right: 56vw;
+    margin-top: 1500px;
+  }
+  #card-carnes-exoticas-2{
+    margin-left: 56vw;
+    margin-top: 1500px;
+}
+  #card-carnes-exoticas-3 {
+    right: 56vw;
+    margin-top: 2000px;
+
+}
+  #card-carnes-exoticas-4 {
+     margin-left: 56vw;
+    margin-top: 2000px;
+  }
+  #card-carnes-exoticas-5 {
+    margin-left: 0vw;
+    right: 56vw;
+    margin-top: 2500px;
+  }
+  #card-carnes-exoticas-6{
+    margin-left: 56vw;
+    margin-top: 2500px;
+  }
+  #card-carnes-exoticas-7{
+    margin-left: 0vw;
+    right: 56vw;
+    margin-top: 3000px;
+  }
+  #card-carnes-exoticas-8{
+    margin-left: 56vw;
+    margin-top: 3000px;
+    
+  }
+  
+}
+@media (max-width: 1600px) {
+    .nav-list {
+        display: none;
+    }
+    #menu-amburguer{
+        display: none;
+        
+    }
+    
+    .icone-menu{
+        display: flex;
+    }
+    #carroussel-nobres-img{
+        height: auto;
+        width: 1900px;
+    }
+    #carroussel-exoticas-img{
+        height: 800px;
+        width: 1900px;
+    }
+    
+    #carroussel-sobre-img {
+        height: auto;
+        width: 1900px;
+    }
+    #resultado { 
+        margin-left: -30px;
+    
+    }
+    #container-resultado{
+        margin-left: -200px;
+    }
+
+  #section-Carnes-Nobres {
+  
+  height: 3000px;
+  
+
+
+}
+    #move{
+  
+  margin-top: 2050px;
+  left: 15%;
+  
+}
+
+
+#sal {
+
+    margin-left: -450px;
+}
+
+#sal-preto {
+    margin-left: 50px;
+}
+
+#carne1 {
+    margin-left: -250px;
+}
+
+#carne2 {
+    margin-left: -100px;
+}
+
+#carne3 {
+    margin-left: -400px;
+}
+
+#carne4 {
+    margin-left: 50px;
+}
+
+#champion {
+    margin-left: -250px;
+}
+
+#pimenta {
+    margin-left: 150px;
+}
+
+#tempero {
+    margin-left: -150px;
+}
+  
+#imagem-formulario{
+  display: none;
+}
+  
+#div-formulario{
+  width: 90%;
+  height: auto;
+padding-bottom: 15vw;
+  padding-left: 15px;
+}
+  
+#nomeLabel{
+  
+  margin-left: -400px;
+  padding-top: 8vw;
+}
+#emailLabel{
+  margin-left: -400px;
+  
+}
+#telefoneLabel{
+  margin-left: -385px;
+  
+}
+#campo-texto-label{
+  margin-left: -32vw;
+  margin-top: 2.5vw;
+}
+#checkboxLabel{
+  margin-left: -32vw;
+  display: inline;
+}
+#campo-texto-label{
+  margin-left: -400px;
+  margin-top: 1.5vw;
+}
+  
+.formulario-nome{
+   
+  
+   margin-left: 0px;
+}
+.formulario-email{
+  
+   
+  margin-left: 0px;
+}
+.formulario-telefone{
+
+  margin-left: -0px;
+}
+.container-checkbox{
+  display: flex;
+  align-items: center;
+  margin-left: -0vw;
+}
+  .container-select-itens{
+  margin-left: -0vw;
+  padding-bottom: 3.5vw;
+}
+  #checkboxLabel{
+  margin-left: -31vw;
+  display: inline;
+}
+  .container-comunicao {
+  display: flex;
+  align-items: center;
+  justify-content: column;   
+  margin-left: -0vw;
+  padding: -0vw;
+}
+.campo-texto{
+  margin-left: -0vw;
+  
+}
+  .button{
+  width: 500px;
+  
+  margin-left: -0vw;
+  margin-top: 2vw;
+  position: relative;
+  
+  
+}
+  #checkboxLabel{
+  margin-left: -140px;
+  display: inline;
+}
+  #div-google-maps{
+    width: 90vw;
+    position: relative;
+  }
+  
+}
+
+@media (max-width: 1450px) {
+  #sal {
+
+    margin-left: -550px;
+}
+
+#sal-preto {
+    margin-left: -150px;
+}
+
+#carne1 {
+    margin-left: -350px;
+}
+
+#carne2 {
+    margin-left: -300px;
+}
+
+#carne3 {
+  margin-top: 2000px;
+    margin-left: -400px;
+}
+
+#carne4 {
+    margin-left: -350px;
+  margin-top: 1700px;
+}
+
+#champion {
+    margin-left: -350px;
+}
+
+#pimenta {
+     margin-top: 1200px;
+    margin-left: -350px;
+}
+
+#tempero {
+  margin-top: 100px;
+    margin-left: -350px;
+}
+.container-comunicao{
+  margin-top: 4vh;
+}
+  .container-select-itens{
+    padding-bottom: 30px;
+  }
+  #campo-texto-label{
+    margin-top: 50px;
+  }
+  
+}
+
+@media (max-width: 1330px) {
+    .carousel-de-cards {
+  position: relative ;
+  width: 320px;
+    
+}
+#move{
+    position: absolute;
+    left: 35%;
+    transform: translate( 0%);
+  }
+
+  
+}
+
+@media (max-width: 1300px) {
+
+    #texto-Carnes-Nobres {
+        margin-top: -150px;
+        font-size: 50px;
+        margin-left: -100px;
+        width: auto;
+        height: auto;
+        
+    }
+    #paragarfo-complemento-nobres {
+        position: absolute;
+        font-size: 20px;
+        margin-top: 200px;
+        margin-left: -50px;
+    }
+ .logoSite {
+       position: relative;
+       margin-left: 50px;
+       
+   }
+     .logo {
+       position: relative;
+       margin-left: -50;
+     }
+      #section-Carnes-Nobres {
+  
+  height: 3600px;
+  
+
+
+}
+    #move{
+  
+  margin-top: 2300px;
+  
+  
+}
+#centro-endereco{
+  margin-top: -1800px;
+  
+}
+  
+  #div-google-maps{
+    flex-direction: column;
+    padding-top: 38px;
+    padding-bottom: 100px;
+    height: auto ;
+  }
+  
+#section-google-maps{
+  height: 2100px;
+}
+  #google-maps{
+    padding-top: 9vw;
+    margin-left: 20px;
+    width: 65vw;
+    height: 50vw;
+  }
+.info-container{
+  
+  margin-left: 0px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.titulo-endereco{
+  font-size: 3vw;
+}
+.info-item{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+  #botao-footer{
+    width: 110px;
+  }
+}
+@media (max-width: 1220px) {
+  
+      #move{
+  margin-top: 2500px;
+}
+  
+#div-carne-flutuando {
+  display: none;
+}
+#card-paragrado-carnes-nobres {
+    width:90%;
+    left:50%;
+    padding-right:4vw;
+    
+    
+  }
+  
+  #paragrafo-Carnes-Nobres1 {
+    margin-left: 80px;
+    font-size: 2vh;
+  }
+  #paragrafo-Carnes-Nobres2 {
+     margin-left: 80px;
+     font-size: 2vh;
+  }
+  #paragrafo-Carnes-Nobres3 {
+     margin-left: 80px;
+     font-size: 2vh;
+  }
+   #paragrafo-Carnes-Nobres4 {
+     margin-left: 80px;
+     font-size: 2vh;
+  }
+  
+#div-carne-flutuando{
+  margin-left: 300px;
+}
+    #sal {
+
+    margin-left: -250px;
+}
+
+#sal-preto {
+    margin-left: 0px;
+}
+
+#carne1 {
+  margin-top: 600px;
+    margin-left: -180px;
+}
+
+#carne2 {
+   margin-top: 1300px;
+    margin-left: -100px;
+}
+
+#carne3 {
+  margin-top: 2700px;
+    margin-left: -50px;
+}
+
+#carne4 {
+    margin-left: -100px;
+  margin-top: 2300px;
+}
+
+#champion {
+  margin-top: 100px;
+    margin-left: -350px;
+}
+
+#pimenta {
+     margin-top: 1800px;
+    margin-left: -100px;
+}
+
+#tempero {
+  margin-top: 100px;
+    margin-left: -150px;
+  width: 400px;
+}
+  
+#carrossel-Carnes-Exoticas {
+  width: 50vw;
+  height: 10vw;
+}
+#texto-Carnes-Exoticas {
+    
+    font-size: 4vw;
+}
+  #paragarfo-complemento-exoticas{
+    font-size: 2vw;
+    margin-top: 16%;
+    margin-left: 4%;
+  }
+  
+
+}
+
+
+
+@media (max-width: 955px) {
+#texto-Carnes-Nobres {
+        margin-top: -270px;
+        font-size: 40px;
+        margin-left: 15vh;
+        transform: translate( -50%,-50%);
+    }
+   #paragarfo-complemento-nobres {
+        position: absolute;
+        font-size: 20px;
+        margin-top: 150px;
+        margin-left: 250px;
+        transform: translate( -50%,-50%);
+        width:100%;
+      
+     padding-right:15px;
+    }
+
+  
+     #move{
+   margin-top: 1500px;
+       top:1500px;
+      left:50vw;
+       transform: translate( -50%);
+}
+
+  
+  
+  #paragrafo-Carnes-Nobres1 {
+    margin-left: 20px;
+    font-size: 2vh;
+  }
+  #paragrafo-Carnes-Nobres2 {
+     margin-left: 20px;
+     font-size:2vh;
+  }
+  #paragrafo-Carnes-Nobres3 {
+     margin-left: 20px;
+     font-size:2vh;
+  }
+   #paragrafo-Carnes-Nobres4 {
+     margin-left: 20px;
+     font-size:2vh;
+  }
+
+    #titulo-carnes-nobres {
+    width: 250px;
+    height: 100px;
+    font-size: 25px;
+
+}
+  #borda-h2 {
+    width: 225px;
+    height: 85px;
+    
+  }
+  #bandeira-esquerda {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    z-index: 1;
+    margin-right: -130px;
+}
+  #bandeira-direita {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    z-index: 1;
+    margin-left: -128px;
+}
+#card-paragrafo-exoticas{
+  width: 90%;
+  left: 50%;
+  margin-left: 0px;
+}
+#homem-segurando-porco {
+  display: none;
+}
+
+  #paragrafo-carnes-exoticas-1 {
+     margin-top: 50px;
+    font-size: 1.8vw;
+  }
+  #paragrafo-carnes-exoticas-2 {
+    font-size: 1.8vw;
+  }
+  #paragrafo-carnes-exoticas-3 {
+    font-size: 1.8vw;
+  }
+  #paragrafo-carnes-exoticas-4 {
+    font-size: 1.8vw;
+    padding-bottom: 50px;
+  }
+
+
+
+}
+
+@media (max-width: 800px) {
+footer{
+  height: 2000px;
+}
+#informacoes-saibamais{
+   margin-top: 1140px;
+}
+  #footer-saiba-mais{
+    margin-top: 1092px;
+  }
+  #footer-compras{
+    margin-left: 0px;
+    margin-top: 597px;
+    width: 99vw;
+  }
+  #informacoes-compras{
+      margin-left: 0px;
+  margin-top: 645px;
+  width: 99vw;
+  }
+#div-forma-pagamento{
+  margin-top: 1588px;
+}
+  #informacoes-pagamento{
+    margin-top: 1588px;
+  }
+  
+#informacoes-footer{
+  width: 99vw;
+}
+  #footer-compras{
+    width: 99vw;
+  }
+  #informacoes-compras{
+    width: 99vw;
+  }
+  #div-imagem-footer{
+    position: absolute;
+    margin-left: 0px;
+    width: 98vw;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    
+  }
+  #imagem-footer{
+    position: relative;
+    margin-top: -50px;
+    margin-left: 4vw;
+    
+    
+  }
+  #email-footer{
+    
+    left: 10px;
+    width: 88vw;
+    margin-top: 300px;
+    margin-left: -3px;
+  }
+  #botao-footer{
+    left: 86vw;
+    margin-top: 300px;
+    width: 100px;
+  }
+
+  #card-carnes-exoticas-1,#card-carnes-exoticas-3,#card-carnes-exoticas-5,#card-carnes-exoticas-7 {
+    height: 62vw;
+    position: absolute;
+    margin-left: 13vw;
+    width: 38.8vw;
+    font-size: 1.8vw;
+}
+
+#card-carnes-exoticas-2,#card-carnes-exoticas-4,#card-carnes-exoticas-6,#card-carnes-exoticas-8 {
+ height: 62vw;
+    position: absolute;
+    margin-left: 53vw;
+    width: 38.8vw;
+    font-size: 1.8vw;
+}
+  
+
+  
+ .imagem-exoticas{
+   width: 36vw;
+   height: 30vw;
+   margin-left: 1vw;
+ } 
+
+  .card-title-2{
+  margin-top: 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+ font-size: 2vw;
+}
+  .card-text{
+  margin-top: 2vw;
+  margin-left: 1.4vw;
+  
+}
+.button-exoticas{
+margin-top: 4vw;
+    margin-left: 1.5vw;
+    width: 12vw;
+    height: 5vw;
+    font-size: 1.9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#button-margin{
+    margin-top: 4vw;
+}
+
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+
+}
+
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}
+
+@media (max-width: 768px) {
+
+
+    .logoSite {
+        width: 150px;
+        height: 150px;
+        margin-left: 50px;
+
+    }
+
+    header li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+        overflow-x: hidden;
+
+
+    }
+
+    a {
+        color: black;
+        transition: 0.3s;
+    }
+
+    a:visited {
+        color: black;
+        text-decoration: #bf2708;
+    }
+
+    a:hover {
+
+        text-decoration: #bf2708;
+        color: white;
+
+    }
+
+    span:hover {
+        color: black;
+    }
+
+    .logo {
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        margin-left: -40px;
+
+    }
+
+    .icones {
+        width: 20px;
+        height: 20px;
+        align-items: center;
+        flex-direction: block;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    #iconediv{
+      flex-direction:column;
+      
+      
+    
+    }
+  .icone-menu{
+     width: 20px;
+        height: 20px;
+    margin-left:-18px;
+    
+  }
+    
+    #lupa{
+        display: block;
+      
+    }
+    #carrinho{
+      margin-left: -20px;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+        background-color: #bf2708;
+        height: 17vh;
+        width: 100%;
+        position: relative;
+        top: 0px;
+        z-index: 10;
+
+    }
+
+    .nav-list li {
+        letter-spacing: 2px;
+        margin-left: 29px;
+        display: none;
+        font-size: 20px;
+    }
+
+    #iconediv {
+        margin-left: 0px;
+        height: 100px;
+        
+      
+
+    }
+
+    #gerar-espaco {
+        display: inline;
+        width: 0px;
+        height: 20px;
+
+    }
+   
+    .icone-menu{
+        display: block;
+        margin-top: 10px;
+    }
+
+    #div-navegacao {
+        margin-right: -200px;
+    }
+    #menu-amburguer{
+        display: none;
+        margin-left: 0px;
+        width: 100%;
+    }
+    #texto-Carnes-Nobres {
+        margin-top: -500px;
+        font-size: 50px;
+        margin-left: -100px;
+        
+    }
+   .formulario-nome{
+   width: 65vw;
+   height: 30px;
+   margin-left: 0px;
+}
+.formulario-email{
+  width: 65vw;
+   height: 30px;
+  margin-left: 0px;
+}
+.formulario-telefone{
+  width: 65vw;
+  height: 30px;
+  margin-left: -0px;
+}
+
+.campo-texto{
+  width: 70vw;
+  
+}
+.paragrafo-checkbox{
+  font-size: 3vw;
+}
+.button{
+  width: 70vw;
+}
+  .select-itens{
+    width: 55vw;
+
+  }
+  .container-select-itens{
+    font-size: 2vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+ .esconde-itens{
+   position: relative;
+   
+ }
+ #searchInput{
+    margin-top: 50px;
+ }
+  
+
+}
+
+@media (max-width: 600px) {
+#paragrafo-Carnes-Nobres1 {
+    
+    font-size: 1.5vh;
+  }
+  #paragrafo-Carnes-Nobres2 {
+     
+     font-size: 1.5vh;
+  }
+  #paragrafo-Carnes-Nobres3 {
+     
+     font-size: 1.5vh;
+  }
+   #paragrafo-Carnes-Nobres4 {
+     
+     font-size: 1.5vh;
+  }
+  #texto-Carnes-Nobres {
+        margin-top: -350px;
+        font-size: 30px;
+        margin-left: -40px;
+        transform: translate( -50%,-50%);
+    }
+   #paragarfo-complemento-nobres {
+        position: absolute;
+        font-size: 13px;
+        margin-top: 100px;
+        margin-left: 150px;
+        transform: translate( -50%,-50%);
+        width:100%;
+      
+     padding-right:15px;
+    }
+  
+   #section-Carnes-Nobres {
+  
+  height: 2500px;
+
+}
+
+    #move{
+      margin-top: 300px;
+      left:50vw;
+       transform: translate( -50%);
+}
+  .carousel-prev-card {
+  left: 0;
+  margin-top: 600px;
+  margin-left: 50px;
+    
+}
+  .carousel-next-card {
+  right: 0;
+    margin-top: 46px;
+  margin-right: 40px;
+    
+    
+}
+  
+  .logoSite {
+    width: 15vw;
+    height: 15vw;
+    margin-left: 10px;
+}
+#iconediv {
+    margin-right: 10px;
+}
+.icones{
+  width: 3vw;
+    height: 3vw;
+}
+  #carrinho{
+     width: 3.5vw;
+    height: 3.5vw;
+  }
+  .icones-menu{
+     width: 2vw;
+    height: 2vw;
+  }
+  .logo {
+    font-size: 3vw;
+}
+#carrossel-entrega {
+  font-size: 2vw;
+}
+  
+  #paragrafo-entrega {
+    font-size: 1.3vw;
+    top: 50%;
+  }
+
+  #paragrafo-carnes-exoticas-1 {
+     margin-top: 50px;
+    font-size: 2.2vw;
+  }
+  #paragrafo-carnes-exoticas-2 {
+    font-size: 2.2vw;
+  }
+  #paragrafo-carnes-exoticas-3 {
+    font-size: 2.2vw;
+  }
+  #paragrafo-carnes-exoticas-4 {
+    font-size: 2.2vw;
+    padding-bottom: 50px;
+  }
+
+  #nomeLabel{
+  
+  margin-left: -300px;
+  
+}
+#emailLabel{
+  margin-left: -300px;
+  
+}
+#telefoneLabel{
+  margin-left: -280px;
+  
+}
+#campo-texto-label{
+  margin-left: -300px;
+}
+
+.button{
+  width: 70vw;
+}
+
+  
+}
+  
