@@ -2224,7 +2224,7 @@ li {
 #redes {
     font-size: 20px;
     margin-top: 150px;
-    margin-left: -2px;
+    margin-left: 0px;
     position: absolute;
     height: 50px;
     width: 469.5px;
@@ -2280,7 +2280,7 @@ li {
   #footer-compras{
     margin-left: 0px;
     margin-top: 597px;
-    width: 100vw;
+    width: 100%;
   }
   #informacoes-compras{
       margin-left: 1.3px;
@@ -2307,7 +2307,7 @@ li {
   margin-top: -100px;
 }
   #footer-compras{
-    width: 100vw;
+    width: 100%;
   }
   #informacoes-compras{
     width: 100vw;
@@ -3032,7 +3032,7 @@ footer{
   #footer-compras{
     margin-left: 0px;
     margin-top: 597px;
-    width: 100vw;
+    width: 100%;
   }
   #informacoes-compras{
       margin-left: 0px;
