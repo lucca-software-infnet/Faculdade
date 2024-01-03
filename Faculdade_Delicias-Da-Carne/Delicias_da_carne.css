@@ -621,7 +621,7 @@ margin-left: -370px;
 #centro {
   width: 660px;
   position: absolute;
-  margin-top: 100px;
+  margin-top: 200px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -2280,7 +2280,7 @@ li {
   #footer-compras{
     margin-left: 0px;
     margin-top: 597px;
-    width: 98vw;
+    width: 100vw;
   }
   #informacoes-compras{
       margin-left: 1.3px;
@@ -2298,24 +2298,24 @@ li {
   #informacoes-pagamento{
     margin-top: 1588px;
     margin-left: 0px;
-    width: 100%;
+    width: 100vw;
     
   }
   
 #informacoes-footer{
-  width: 99vw;
+  width: 100vw;
   margin-top: -100px;
 }
   #footer-compras{
-    width: 99vw;
+    width: 100vw;
   }
   #informacoes-compras{
-    width: 98.8vw;
+    width: 100vw;
   }
   #div-imagem-footer{
     position: absolute;
     margin-left: 0px;
-    width: 98vw;
+    width: 100vw;
     margin-top: 0px;
     display: flex;
     align-items: center;
@@ -3032,12 +3032,12 @@ footer{
   #footer-compras{
     margin-left: 0px;
     margin-top: 597px;
-    width: 99vw;
+    width: 100vw;
   }
   #informacoes-compras{
       margin-left: 0px;
   margin-top: 645px;
-  width: 99vw;
+  width: 100vw;
   }
 #div-forma-pagamento{
   margin-top: 1588px;
@@ -3047,18 +3047,18 @@ footer{
   }
   
 #informacoes-footer{
-  width: 99vw;
+  width: 100vw;
 }
   #footer-compras{
-    width: 99vw;
+    width: 100vw;
   }
   #informacoes-compras{
-    width: 99vw;
+    width: 100vw;
   }
   #div-imagem-footer{
     position: absolute;
     margin-left: 0px;
-    width: 98vw;
+    width: 100vw;
     margin-top: 0px;
     display: flex;
     align-items: center;
@@ -3497,6 +3497,9 @@ margin-top: 4vw;
   width: 100px;
 }
 
+#sobre{
+  height: 2000px;
+}
   
 }
   
