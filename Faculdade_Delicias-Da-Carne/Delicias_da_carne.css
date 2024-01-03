@@ -1009,7 +1009,7 @@ margin-left: 10px;
     margin-left: 20px;
     color: white;
     position: relative;
-    font-size: 1.3vw;
+    font-size: 25px;
     width: 100%;
 
 
@@ -1020,7 +1020,7 @@ margin-left: 10px;
     margin-left: 20px;
     color: white;
     position: relative;
-    font-size: 1.3vw;
+    font-size: 25px;
     width: 100%;
 
 
@@ -2129,6 +2129,7 @@ li {
     margin-left: 897px;
     margin-top: 46px;
     
+    
 }
 
 #footer-saiba-mais {
@@ -2139,6 +2140,7 @@ li {
     position: absolute;
     margin-left: 897px;
     margin-top: -2px;
+    border-bottom: none;
     
 }
 
@@ -2173,11 +2175,11 @@ li {
 #div-forma-pagamento {
     height: 50px;
     width: 469px;
-    border: 2px solid #000;
     color: white;
     position: absolute;
     margin-left: 1396px;
     margin-top: -2px;
+    border: 2px solid black;
     
 }
 
@@ -2264,9 +2266,11 @@ li {
   height: 2300px;
 }
 #informacoes-saibamais{
-   margin-top: 1141px;
+   margin-top: 1135px;
   margin-left: 0px;
+  border: 2px solid black;
   width: 100%;
+  height: 505px;
 }
   #footer-saiba-mais{
     margin-top: 1093px;
@@ -2276,22 +2280,26 @@ li {
   #footer-compras{
     margin-left: 0px;
     margin-top: 597px;
-    width: 98.7%;
+    width: 98vw;
   }
   #informacoes-compras{
-      margin-left: 0px;
+      margin-left: 1.3px;
      margin-top: 645px;
      width: 99%;
+     height: 450px;
+     border-bottom: none;
   }
 #div-forma-pagamento{
   margin-top: 1588px;
   margin-left: 0px;
   width: 100%;
+  border: none;
 }
   #informacoes-pagamento{
     margin-top: 1588px;
     margin-left: 0px;
     width: 100%;
+    
   }
   
 #informacoes-footer{
@@ -2584,6 +2592,7 @@ padding-bottom: 15vw;
   #div-google-maps{
     width: 90vw;
     position: relative;
+    margin-top: -100px;
   }
   
 }
@@ -2704,6 +2713,7 @@ padding-bottom: 15vw;
     padding-top: 38px;
     padding-bottom: 100px;
     height: auto ;
+    margin-top: -100px;
   }
   
 #section-google-maps{
@@ -2746,8 +2756,6 @@ padding-bottom: 15vw;
 #section-Carnes-Nobres {
   
   height: 2500px;
-  
-
 
 }
   
@@ -2758,8 +2766,6 @@ padding-bottom: 15vw;
     width:90%;
     left:50%;
     padding-right:4vw;
-    
-    
   }
   
   #paragrafo-Carnes-Nobres1 {
@@ -2841,6 +2847,74 @@ padding-bottom: 15vw;
     margin-left: 4%;
   }
   
+  #sobre-acougue {
+    height: 55vw;
+  }
+  #paragrafo-acougue{
+    height: 55vw;
+    font-size: 1.6vw;
+  }
+
+  #titulo-acougue {
+    font-size: 2vw ;
+  }
+
+  #historia-delicias-da-carne-2{
+    margin-top: 10px;
+  }
+
+  #div-sobre-acougue-2{
+    height: 55vw;
+  } 
+
+  #sobre-entrega{
+    height: 55vw;
+    top: 27.5vw;
+  }
+
+  #sua-casa {
+    height: 50vw;
+  }
+
+  #paragrafo-caminhao {
+    font-size: 2vw;
+    width: 40vw;
+    left: 23.5vw;
+    top: 40%;
+  }
+
+  #titulo-entregas{
+    font-size: 2vw;
+    margin-top: 1%;
+  }
+
+  #div-sobre-acougue-3{
+    
+  }
+  #paragrafo-atendimento-1{
+    font-size: 1.8vw;
+    padding-bottom: 10px;
+    line-height: 2.3vw;
+  }
+  #paragrafo-atendimento-2{
+    font-size: 1.8vw;
+    padding-bottom: 10px;
+    line-height: 2.3vw;
+  }
+  #paragrafo-atendimento-3{
+    font-size: 2vw;
+    padding-bottom: 10px;
+  }
+  #paragrafo-casa{
+    height: 50vw;
+  }
+  #titulo-atendimento{
+    font-size: 2vw;
+  }
+  #sobre {
+    height: 300vw;
+   } 
+  
 
 }
 
@@ -2876,7 +2950,7 @@ padding-bottom: 15vw;
   
   #paragrafo-Carnes-Nobres1 {
     margin-left: 25px;
-    font-size: 2vh;
+    font-size: 2vw;
   }
   #paragrafo-Carnes-Nobres2 {
      margin-left: 25px;
@@ -2927,16 +3001,16 @@ padding-bottom: 15vw;
 
   #paragrafo-carnes-exoticas-1 {
      margin-top: 50px;
-    font-size: 1.8vw;
+    font-size: 2vw;
   }
   #paragrafo-carnes-exoticas-2 {
-    font-size: 1.8vw;
+    font-size: 2vw;
   }
   #paragrafo-carnes-exoticas-3 {
-    font-size: 1.8vw;
+    font-size: 2vw;
   }
   #paragrafo-carnes-exoticas-4 {
-    font-size: 1.8vw;
+    font-size: 2vw;
     padding-bottom: 50px;
   }
 
@@ -2950,6 +3024,7 @@ footer{
 }
 #informacoes-saibamais{
    margin-top: 1140px;
+   
 }
   #footer-saiba-mais{
     margin-top: 1092px;
@@ -3276,6 +3351,9 @@ margin-top: 4vw;
     margin-top: 50px;
  }
   
+ #sobre{
+   height: 2000px;
+ }
 
 }
 
