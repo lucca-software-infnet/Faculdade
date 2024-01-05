@@ -3202,6 +3202,12 @@ li {
     transform: translate(-50%, -50%);
   }
 
+  .carousel-indicators{
+    height: 1;
+    width: 1vw;
+    margin-left: 1%;
+  }
+
   #paragarfo-complemento-nobres {
     position: absolute;
     font-size: 20px;
