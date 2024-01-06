@@ -3504,7 +3504,7 @@ li {
   }
   
   #botao-jacare{
-    margin-top: 3vw;
+    margin-top: 23px;
   }
 
   #botao-bisteca {
@@ -3824,6 +3824,18 @@ li {
 }
 
 @media (max-width: 600px) {
+
+  #botao-coelho{
+    margin-top: 15px;
+  }
+
+  #botao-avestruz{
+    margin-top: 45px;
+  }
+
+  #botao-jacare{
+    margin-top: 5px;
+  }
   #paragrafo-Carnes-Nobres1 {
 
     font-size: 1.5vh;
