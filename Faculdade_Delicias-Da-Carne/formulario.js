@@ -45,27 +45,27 @@ lupa.addEventListener("click", function() {
 });
 
 let dados = [
-  { nome: "flat iron angus", imagem: "flat-iron-angus-1010g-congelado-8c1529e1.png", 
+  { nome: "flat iron angus", imagem: "imagens/flat-iron-angus-1010g-congelado-8c1529e1.png", 
    link: "https://boutique.carapretaoficial.com.br/flat-iron-angus-1kg/product/221610" },
-  { nome: "denver angus", imagem: "denver-angus-903g-congelado-a4e97b12.png", 
+  { nome: "denver angus", imagem: "imagens/denver-angus-903g-congelado-a4e97b12.png", 
    link: "https://boutique.carapretaoficial.com.br/denver-angus-903g/product/221606" },
-  { nome: "ancho angus porcionado", imagem: "ancho-angus-porcionado-1106g-congelado-5e0640bf.png", 
+  { nome: "ancho angus porcionado", imagem: "imagens/ancho-angus-porcionado-1106g-congelado-5e0640bf.png", 
    link:"https://boutique.carapretaoficial.com.br/ancho-angus-1050kg/product/221615" },
-  { nome: "picanha angus", imagem: "picanha-angus-1200kg-congelado-20f9d40a.png",
+  { nome: "picanha angus", imagem: "imagens/picanha-angus-1200kg-congelado-20f9d40a.png",
   link:"https://boutique.carapretaoficial.com.br/picanha-angus-11kg/product/221605"},
-  { nome: "maminha angus", imagem: "maminha-angus-960g-congelado-060819a3.png",
+  { nome: "maminha angus", imagem: "imagens/maminha-angus-960g-congelado-060819a3.png",
   link: "https://boutique.carapretaoficial.com.br/maminha-angus-1180kg/product/221612"},
-  {nome :"skirt steak angus ", imagem:"3dec7dc8e0.png", link:"https://boutique.carapretaoficial.com.br/skirt-steak-angus-706g/product/221602"},
-  {nome: "fraldinha angus ", imagem:"fraldinha-angus-975g-congelado-787976ce.png", link:"https://boutique.carapretaoficial.com.br/fraldinha-red-angus-610g/product/221611"},
-  {nome:"Tomahawk angus ", imagem:"tomahawk-angus-950g-congelado-d2ff6d5f.png", link:"https://boutique.carapretaoficial.com.br/tomahawk-angus-950g/product/221621"},
-  {nome:"cowboy angus ",imagem:"d13c4158c4.png", link:"https://boutique.carapretaoficial.com.br/cowboy-angus-750g/product/221620"},
-  {nome:"bisteca de porco", imagem:"ACOUGUE-BISTECA-DE-PORCO-S-CP-KG.webp",link:"https://www.swift.com.br/bisteca-swift-mais-1kg/p"},
-  {nome:"javali", imagem:"1591213c4d.png", link:"https://www.zezinhocarnes.com.br/produto/javali/"},
-  {nome:"coelho",imagem:"coelho-cortes-kg-617678-1.png",link:"https://www.zezinhocarnes.com.br/produto/coelho/"},
-  {nome:"capivara",imagem:"P046-capivara.jpg",link:"https://porcofeliz.com.br/capivara/"},
-{nome:"peito de pato",imagem:"peito_picanha_pato_germania_1kg_24ff5ef4-d3d2-4d8a-ade5-2dac808fddec.jpg",link:"https://www.swift.com.br/peito-de-pato-swift-480g/p?idsku=1744&utm_source=Google_Shopping&gclid=CjwKCAjwsvujBhAXEiwA_UXnAJeIy_ze88tCuJlDNb4AAgsrgQbVvxnj3S_2bMl1jw5Dz86LVv3GDRoCcuAQAvD_BwE"},
-{nome:"avestruz",imagem:"images (1)_jpgavestruz 2.png",link:"https://multsaudedistribuidora.com.br/product/carne-de-avestruz-com-osso/"},
-  {nome:"jacaré",imagem:"jacare.jpg",link:"https://padovanialimentos.com.br/product/jacare-cortes/"}
+  {nome :"skirt steak angus ", imagem:"imagens/3dec7dc8e0.png", link:"https://boutique.carapretaoficial.com.br/skirt-steak-angus-706g/product/221602"},
+  {nome: "fraldinha angus ", imagem:"imagens/fraldinha-angus-975g-congelado-787976ce.png", link:"https://boutique.carapretaoficial.com.br/fraldinha-red-angus-610g/product/221611"},
+  {nome:"Tomahawk angus ", imagem:"imagens/tomahawk-angus-950g-congelado-d2ff6d5f.png", link:"https://boutique.carapretaoficial.com.br/tomahawk-angus-950g/product/221621"},
+  {nome:"cowboy angus ",imagem:"imagens/d13c4158c4.png", link:"https://boutique.carapretaoficial.com.br/cowboy-angus-750g/product/221620"},
+  {nome:"bisteca de porco", imagem:"imagens/ACOUGUE-BISTECA-DE-PORCO-S-CP-KG.webp",link:"https://www.swift.com.br/bisteca-swift-mais-1kg/p"},
+  {nome:"javali", imagem:"imagens/1591213c4d.png", link:"https://www.zezinhocarnes.com.br/produto/javali/"},
+  {nome:"coelho",imagem:"imagens/coelho-cortes-kg-617678-1.png",link:"https://www.zezinhocarnes.com.br/produto/coelho/"},
+  {nome:"capivara",imagem:"imagens/P046-capivara.jpg",link:"https://porcofeliz.com.br/capivara/"},
+{nome:"peito de pato",imagem:"imagens/peito_picanha_pato_germania_1kg_24ff5ef4-d3d2-4d8a-ade5-2dac808fddec.jpg",link:"https://www.swift.com.br/peito-de-pato-swift-480g/p?idsku=1744&utm_source=Google_Shopping&gclid=CjwKCAjwsvujBhAXEiwA_UXnAJeIy_ze88tCuJlDNb4AAgsrgQbVvxnj3S_2bMl1jw5Dz86LVv3GDRoCcuAQAvD_BwE"},
+{nome:"avestruz",imagem:"imagens/images (1)_jpgavestruz 2.png",link:"https://multsaudedistribuidora.com.br/product/carne-de-avestruz-com-osso/"},
+  {nome:"jacaré",imagem:"imagens/jacare.jpg",link:"https://padovanialimentos.com.br/product/jacare-cortes/"}
   
   
 ];
