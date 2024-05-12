@@ -1,4 +1,0 @@
-Lasanha;350;25.99;Deliciosa lasanha com molho de tomate e queijo;Massa, Queijo, Molho de Tomate;Vegetariano;2;Bolonhesa;Italia;4.5;PRATO_PRINCIPAL
-Sushi;200;35.50;Seleção variada de sushis frescos;Arroz, Peixe, Alga, Wasabi;Sem Glúten;3;Japonesa;Japão;4.8;ENTRADA
-Hamburguer;180;18.75;Hamburguer suculento com queijo e bacon;Carne, Queijo, Bacon, Pão;Não Vegetariano;4;Fast Food;Estados Unidos;4.2;PRATO_PRINCIPAL
-Salada Caesar;120;12.99;Salada fresca com alface, frango, parmesão e molho Caesar;Alface, Frango, Parmesão, Molho Caesar;Sem Glúten;1;Americana;Estados Unidos;4.6;SALADA
