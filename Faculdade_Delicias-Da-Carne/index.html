@@ -5,10 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="Delicias_da_carne.css">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
   </style>
@@ -27,70 +30,69 @@
 
   <!-- Cabeça do codigo -->
 
-  
+
   <header>
     <nav id="cabeca">
-      <img class="logoSite" src="Logo Delicias da carne.png">
+      <img class="logoSite" src="imagens/Logo Delicias da carne.png">
       <a class="logo" href="#">Delicias da Carne</a>
       <div id="div-navegacao">
         <ul class="nav-list">
-          
-          <li class="nav-li-1"><a
-              href="#cabeca">Início</a>
+
+          <li class="nav-li-1"><a href="#cabeca">Início</a>
           </li>
-          <li ><a href="#sobre">Sobre</a></li>
-        
+          <li><a href="#sobre">Sobre</a></li>
+
           <li class="nav-li-1"><a href="https://www.swift.com.br" target="_blank">Comprar</a></li>
           <li><a href="#section-google-maps">Contatos</a></li>
         </ul>
 
-        
+
       </div>
 
-        <div id="gerar-espaco" ></div>
+      <div id="gerar-espaco"></div>
       <div id="iconediv">
         <ul>
-          <li   class="icones"><img id="carrinho" class="icones" src="carrinho-carrinho.png"></li>
-          <li class="icones"><img class="icones" id="lupa" src="pesquisa-de-lupa.png"></li>
-          
+          <li class="icones"><img id="carrinho" class="icones" src="imagens/carrinho-carrinho.png"></li>
+          <li class="icones"><img class="icones" id="lupa" src="imagens/pesquisa-de-lupa.png"></li>
         </ul>
-       <img class="icone-menu" src="menu.png" >
-       <div id="container-resultado">
-      <input type="text" class="pesquisa" id="searchInput" placeholder="Digite o nome da carne">
-        
-      <div id="resultado" class="resultadoNone"></div>
-    </div>
+        <img class="icone-menu" src="imagens/menu.png">
+        <div id="container-resultado">
+          <input type="text" class="pesquisa" id="searchInput" placeholder="Digite o nome da carne">
+
+          <div id="resultado" class="resultadoNone"></div>
+        </div>
       </div>
-  
 
-   <div id="menu-amburguer">
-      <div id="cabeça-menu-amburguer"><img id="menu-amburguer-logo" src="Logo Delicias da carne.png">
-        <h2 id="titulo-menu-amburguer">DELICIAS DA Carne</h2><img class="fechar" src="close.png">      </div>
-      
-      <ul id="menu-lista">
-        <li class="menu-lista"><a class="menu-link" href="#cabeca">Início</a> </li>
 
-        <li class="menu-lista"><a class="menu-link" href="#sobre">Sobre</a></li>
+      <div id="menu-amburguer">
+        <div id="cabeça-menu-amburguer"><img id="menu-amburguer-logo" src="imagens/Logo Delicias da carne.png">
+          <h2 id="titulo-menu-amburguer">DELICIAS DA CARNE</h2><img class="fechar" src="imagens/close.png">
+        </div>
 
-        <li class="menu-lista"><a class="menu-link" href="https://www.swift.com.br" target="_blank">Comprar</a></li>
-        <li class="menu-lista"><a class="menu-link" href="#section-google-maps">Contatos</a></li>
-      </ul>
+        <ul id="menu-lista">
+          <li class="menu-lista"><a class="menu-link" href="#cabeca">Início</a> </li>
 
-    </div>
-    
+          <li class="menu-lista"><a class="menu-link" href="#sobre">Sobre</a></li>
+
+          <li class="menu-lista"><a class="menu-link" href="https://www.swift.com.br" target="_blank">Comprar</a></li>
+          <li class="menu-lista"><a class="menu-link" href="#section-google-maps">Contatos</a></li>
+        </ul>
+
+      </div>
+
     </nav>
-    
+
 
   </header>
-   <main>
+  <main>
 
-  <a  href="https://wa.me/5511951567530?text=Adorei%20seu%20artigo" target="_blank">
-  <img id="whatsapp" src="whatsapp.png" alt="WhatsApp">
-</a>
-    
+    <a href="https://wa.me/5511951567530?text=Adorei%20seu%20artigo" target="_blank">
+      <img id="whatsapp" src="imagens/whatsapp.png" alt="WhatsApp">
+    </a>
+
     <!-- Carrossel de imagens mostrando as partes principais da pagina -->
 
-     <section class="primeiraSection">
+    <section class="primeiraSection">
 
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -103,31 +105,30 @@
 
         <div class="carousel-inner">
           <div class="item active">
-            <img class="carrosselInicial" src="casa-de-carnes-rosa-slider-2.jpg" alt="Slide 1">
+            <img class="carrosselInicial" src="imagens/casa-de-carnes-rosa-slider-2.jpg" alt="Slide 1">
             <div class="carousel-caption">
               <h2 id="carrossel-Carnes-Nobres">
                 <P id="texto-Carnes-Nobres">Carnes Nobres</P>
               </h2>
               <p id="paragarfo-complemento-nobres">carnes de alta qualidade, cuidadosamente selecionadas<br> &nbsp;
                 &nbsp; &nbsp; para garantir o
-              melhor sabor e textura para o seu churrasco</p>
-              <h4 id="fundo-carrosel-1"></h4>
+                melhor sabor e textura para o seu churrasco</p>
+
             </div>
           </div>
 
-          <div class="item">
-            <img class="carrosselInicial" src="carrossel 2.png" alt="Slide 2">
+          <div class="item" id="item-exoticas">
+            <img class="carrosselInicial" src="imagens/carrossel 2.png" alt="Slide 2">
             <div class="carousel-caption" id="centralizando-carrossel-exoticas">
               <h2 id="carrossel-Carnes-Exoticas">
                 <p id="texto-Carnes-Exoticas">Carnes Exóticas</p>
+                <p id="paragarfo-complemento-exoticas">Variedade de cortes para sua família</p>
               </h2>
-              <p id="paragarfo-complemento-exoticas">Variedade de cortes para sua família</p>
-              <h4 id="fundo-carrosel-2"></h4>
             </div>
           </div>
 
           <div class="item">
-            <img class="carrosselInicial" id="carroussel-exoticas" src="sobre.png" alt="Slide 3">
+            <img class="carrosselInicial" id="imagens/carroussel-exoticas" src="imagens/sobre.png" alt="Slide 3">
             <div class="carousel-caption" id="centraliza-carrossel-entrega">
               <h2 id="carrossel-entrega">Confiança e segurança em cada entrega !</h2>
               <p id="paragrafo-entrega">Nós entendemos a importância de garantir a qualidade<br> e a segurança da carne
@@ -152,315 +153,417 @@
 
 
     </section>
- 
 
     <section id="section-Carnes-Nobres">
 
       <div id="centro">
-       <div class="alinhamento-h2" id="alinhamento-bandeira-nobres">
-        <img class="alinhamento-h2" id="bandeira-esquerda" src="ribbon-left.png">
-        <h2 id="titulo-carnes-nobres">
-          <div id="borda-h2">
-            <p id="carnes-nobres-h2">Carnes Nobres</p>
+        <div class="alinhamento-h2" id="alinhamento-bandeira-nobres">
+          <img class="alinhamento-h2" id="bandeira-esquerda" src="imagens/ribbon-left.png">
+          <h2 id="titulo-carnes-nobres">
+            <div id="borda-h2">
+              <p id="carnes-nobres-h2">Carnes Nobres</p>
+            </div>
+          </h2>
+          <img class="alinhamento-h2" id="bandeira-direita" src="imagens/ribbon-right.png">
+        </div>
+      </div>
+
+      <div class="grid-carnes-nobres">
+
+        <div id="container-texte-nobres">
+          <div id="card-paragrado-carnes-nobres">
+            <p id="paragrafo-Carnes-Nobres1">No Delícias da Carne, nossa seção de carnes nobres é o lugar perfeito para
+              quem
+              procura os cortes mais suculentos e saborosos da cidade. Com uma seleção cuidadosa de carnes de boi, porco
+              e
+              cordeiro, garantimos a qualidade excepcional que nossos clientes merecem.</p>
+            <p id="paragrafo-Carnes-Nobres2">Nossa seção de carnes nobres oferece cortes especiais, como o filé mignon,
+              costela premium, picanha black angus e muito mais. Com texturas e sabores incomparáveis, nossas carnes são
+              perfeitas para um churrasco com os amigos ou um jantar especial em casa.</p>
+            <p id="paragrafo-Carnes-Nobres3">Além disso, nossa equipe de profissionais está sempre à disposição para
+              auxiliar
+              na escolha da carne ideal para cada ocasião. Com anos de experiência no ramo de açougues, eles podem
+              fornecer
+              orientações e dicas úteis para ajudar a preparar a carne da melhor forma possível.</p>
+            <p id="paragrafo-Carnes-Nobres4">Não perca a oportunidade de experimentar a deliciosa seleção de carnes
+              nobres
+              do
+              Delícias da Carne. Visite-nos hoje e deixe-nos mostrar por que somos a escolha número um para os amantes
+              de
+              carne exigentes.</p>
           </div>
-        </h2>
-        <img class="alinhamento-h2" id="bandeira-direita" src="ribbon-right.png">
-      </div> 
+        </div>
+
+        <div id="div-carne-flutuando">
+          <img class="imagem-carne-flutuando" id="champion" src="imagens/foto 1-1.png">
+          <img class="imagem-carne-flutuando" id="pimenta" src="imagens/pimenta.png">
+          <img class="imagem-carne-flutuando" id="carne2" src="imagens/carne 2.png">
+          <img class="imagem-carne-flutuando" id="carne3" src="imagens/Sem foto 2-1.png">
+          <img class="imagem-carne-flutuando" id="carne4" src="imagens/carne 3.png">
+          <img class="imagem-carne-flutuando" id="carne1" src="imagens/carne 1.png">
+          <img class="imagem-carne-flutuando" id="sal" src="imagens/sal flutuando.png">
+          <img class="imagem-carne-flutuando" id="sal-preto" src="imagens/sal preto.png">
+          <img class="imagem-carne-flutuando" id="tempero" src="imagens/tempero.png">
+        </div>
+
       </div>
 
+      <section class="pt-5 pb-5" id="move">
+        <div class="container" id="container-move">
+          <div class="row" id="container-move">
+            <div class="col-12 text-right mb-3 ">
+              <a class="btn btn-primary" id="move-botao1" href="#carouselExampleIndicators2" role="button"
+                data-slide="prev">
+                <i class="fa fa-arrow-left"></i>
+              </a>
+              <a class="btn btn-primary" id="move-botao2" href="#carouselExampleIndicators2" role="button"
+                data-slide="next">
+                <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-12" id="container-cards">
+              <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-md-4 mb-3">
+                        <div class="card" id="card-nobres">
+                          <img class="img-fluid" alt="100%x280" src="imagens/3dec7dc8e0.png">
+                          <div class="card-body">
+                            <h3 class="titulo-card-tradicionais" id="bananinhaAngus">Bananinha Angus 800g</h3>
+                            <p class="paragrafo-card-tradicionais" id="paragradoBananinha">Excelente para petiscar e
+                              conhecida como o “amendoim do churrasco”, é saborosa e tem uma bela camada de gordura que
+                              lhe garante muita maciez.</p>
+                            <a href="#" class="btn btn-primary botao-bananinha">Comprar</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card" id="card-nobres">
+                          <img class="img-fluid" alt="100%x280"
+                            src="imagens/ancho-angus-porcionado-1106g-congelado-5e0640bf.png">
+                          <div class="card-body">
+                            <h3 class="titulo-card-tradicionais">Ancho angus porcionado 1106g</h3>
+                            <p class="paragrafo-card-tradicionais" id="paragrafoAncho">Um corte saboroso, marmorizado e
+                              suculento muito utilizado na Argentina. "Vizinho" do bife de chorizo, é extraído da região
+                              do contra-filé que vai da segunda à sexta vértebra.</p>
+                            <a href="#" id="botao-ancho-angus" class="btn btn-primary">Comprar</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card" id="card-nobres">
+                          <img class="img-fluid" alt="100%x280"
+                            src="imagens/flat-iron-angus-1010g-congelado-8c1529e1.png">
+                          <div class="card-body">
+                            <h3 class="titulo-card-tradicionais">Flat iron angus 1010g congelado</h3>
+                            <p class="paragrafo-card-tradicionais">Flat Iron Angus Carapreta. Sabor intenso e
+                              versatilidade. Para servir, acompanhe com um delicioso chimichurri. É um corte retirado da
+                              paleta, sem capa de gordura, e um dos cortes mais macios do bovino.</p>
+                            <a href="#" id="botao-flat-iron" class="btn btn-primary">Comprar</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-      <div id="div-carne-flutuando">
-       <img class="imagem-carne-flutuando" id="champion" src="foto 1-1.png">
-      <img class="imagem-carne-flutuando" id="pimenta" src="pimenta.png">
-      <img class="imagem-carne-flutuando" id="carne2" src="carne 2.png">
-      <img class="imagem-carne-flutuando" id="carne3" src="Sem foto 2-1.png">
-      <img class="imagem-carne-flutuando" id="carne4" src="carne 3.png">
-     <img class="imagem-carne-flutuando" id="carne1" src="carne 1.png">
-       <img class="imagem-carne-flutuando" id="sal" src="sal flutuando.png">
-      <img class="imagem-carne-flutuando" id="sal-preto" src="sal preto.png">
-   <img class="imagem-carne-flutuando" id="tempero" src="tempero.png">
-    </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-md-4 mb-3 ">
+                        <div class="card" id="card-nobres">
+                          <img class="img-fluid" alt="100%x280" src="imagens/maminha-angus-960g-congelado-060819a3.png">
+                          <div class="card-body">
+                            <h3 class="titulo-card-tradicionais m">Maminha angus 960g congelado</h3>
+                            <p class="paragrafo-card-tradicionais">Muito presente nas mesas brasileiras, a maminha é a
+                              parte mais macia da alcatra. Sua suculência e sabor suave fazem com que seja excelente
+                              para assados, churrasco ou na grelha, e também como carne de panela.</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card" id="card-nobres">
+                          <img class="img-fluid" alt="100%x280" src="imagens/d13c4158c4.png">
+                          <div class="card-body">
+                            <h3 class="titulo-card-tradicionais" id="cowboyAngus">Cowboy Angus 1.100g</h3>
+                            <p class="paragrafo-card-tradicionais" id="paragrafoCowboyangus">Riquíssimo em sabor, maciez
+                              e suculência, o cowboy está localizado no dianteiro e é a continuação do ribeye que faz
+                              muito sucesso nos grandes restaurantes de carne.</p>
+                            <a href="#" id="botao-cowboy" class="btn btn-primary">Comprar</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card" id="card-nobres">
+                          <img class="img-fluid" alt="100%x280"
+                            src="imagens/picanha-angus-1200kg-congelado-20f9d40a.png">
+                          <div class="card-body">
+                            <h3 class="titulo-card-tradicionais" id="picanhaAngus">Picanha angus 1200kg</h3>
+                            <p class="paragrafo-card-tradicionais" id="paragrafoPicanhaangus">Rainha do churrasco
+                              brasileiro, a picanha CARAPRETA é ainda mais macia. Saborosa e com marmoreio inigualável
+                              com esta peça, você terá uma experiência única.</p>
+                            <a href="#" id="botao-picanha" class="btn btn-primary">Comprar</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-      
-      <div id="card-paragrado-carnes-nobres">
-        <p id="paragrafo-Carnes-Nobres1">No Delícias da Carne, nossa seção de carnes nobres é o lugar perfeito para quem
-          procura os cortes mais suculentos e saborosos da cidade. Com uma seleção cuidadosa de carnes de boi, porco e
-          cordeiro, garantimos a qualidade excepcional que nossos clientes merecem.</p>
-        <p id="paragrafo-Carnes-Nobres2">Nossa seção de carnes nobres oferece cortes especiais, como o filé mignon,
-          costela premium, picanha black angus e muito mais. Com texturas e sabores incomparáveis, nossas carnes são
-          perfeitas para um churrasco com os amigos ou um jantar especial em casa.</p>
-        <p id="paragrafo-Carnes-Nobres3">Além disso, nossa equipe de profissionais está sempre à disposição para
-          auxiliar
-          na escolha da carne ideal para cada ocasião. Com anos de experiência no ramo de açougues, eles podem fornecer
-          orientações e dicas úteis para ajudar a preparar a carne da melhor forma possível.</p>
-        <p id="paragrafo-Carnes-Nobres4">Não perca a oportunidade de experimentar a deliciosa seleção de carnes nobres
-          do
-          Delícias da Carne. Visite-nos hoje e deixe-nos mostrar por que somos a escolha número um para os amantes de
-          carne exigentes.</p>
-      </div>
-    
-        
-      
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-md-4 mb-3">
+                        <div class="card" id="card-nobres">
+                          <img class="img-fluid" alt="100%x280" src="imagens/denver-angus-903g-congelado-a4e97b12.png">
+                          <div class="card-body">
+                            <h3 class="titulo-card-tradicionais" id="denverAngus903">Denver-angus-903g</h3>
+                            <p class="paragrafo-card-tradicionais" id="paragrafoDenverangus903">O denver steak, Retirado
+                              da parte mais macia do acém, é saborosíssimo e ideal em assados e na grelha. Com bom
+                              marmoreio, o
+                              corte vem ganhando popularidade.</p>
+                            <a href="#" id="botao-denver" class="btn btn-primary">Comprar</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card" id="card-nobres">
+                          <img class="img-fluid" alt="100%x280"
+                            src="imagens/fraldinha-angus-975g-congelado-787976ce.png">
+                          <div class="card-body">
+                            <h3 class="titulo-card-tradicionais" id="fraldinhaAngus">Fraldinha angus 975g</h3>
+                            <p class="paragrafo-card-tradicionais" id="paragrafoFraldinhaAngus">O denver é um corte
+                              extremamente saboroso e macio. Também conhecido como denver steak ou underblade steak, é
+                              uma ótima opção para churrasco e grelhados.</p>
+                            <a href="#" id="botao-fraldinha" class="btn btn-primary">Comprar</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card" id="card-nobres">
+                          <img class="img-fluid" alt="100%x280"
+                            src="imagens/tomahawk-angus-950g-congelado-d2ff6d5f.png">
+                          <div class="card-body">
+                            <h3 class="titulo-card-tradicionais m">Tomahawk angus 950g congelado</h3>
+                            <p class="paragrafo-card-tradicionais" id="tomahawk-angus">O tomahawk é uma peça de carne
+                              com osso, conhecida
+                              por seu formato parecido com um machado de guerra. É um corte especial que impressiona
+                              pelo visual e pelo sabor, perfeito para churrascos e ocasiões especiais.</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      
-<div id="move">
-      <button class="carousel-prev-card">Anterior</button> 
- 
-<div class="carousel-de-cards">
-  <div class="carousel-container">
-    <div class="carousel-card">
-      <img src="3dec7dc8e0.png">
-      <h3 class="titulo-card-tradicionais" id="bananinhaAngus" >Bananinha Angus 800g</h3>
-      <p class="paragrafo-card-tradicionais" id="paragradoBananinha">Excelente para petiscar e conhecida como o “amendoim do churrasco”, é saborosa e tem uma bela camada de gordura que lhe garante muita maciez.</p>
-      <a href="#" class=" btn btn-primary" >Comprar</a>
-    </div>
+    </section>
 
-    <div class="carousel-card">
-      <img src="ancho-angus-porcionado-1106g-congelado-5e0640bf.png">
-      <h3 class="titulo-card-tradicionais">Ancho angus porcionado 1106g</h3>
-      <p class="paragrafo-card-tradicionais" id="paragrafoAncho">Um corte saboroso, marmorizado e suculento muito utilizado na Argentina. "Vizinho" do bife de chorizo, é extraído da região do contra-filé que vai da segunda à sexta vértebra.</p>
-      <a href="#" class=" btn btn-primary"  >Comprar</a>
-    </div>
-
-    <div class="carousel-card">
-      <img src="flat-iron-angus-1010g-congelado-8c1529e1.png">
-      <h3 class="titulo-card-tradicionais">Flat iron angus 1010g congelado</h3>
-      <p class="paragrafo-card-tradicionais">Flat Iron Angus Carapreta. Sabor intenso e versatilidade. Para servir, acompanhe com um delicioso chimichurri. É um corte retirado da paleta, sem capa de gordura, e um dos cortes mais macios do bovino.</p>
-      <a href="#" class=" btn btn-primary"  >Comprar</a>
-    </div>
-
-    <div class="carousel-card">
-      <img src="maminha-angus-960g-congelado-060819a3.png">
-      <h3 class="titulo-card-tradicionais">Maminha angus 960g congelado</h3>
-      <p class="paragrafo-card-tradicionais">Muito presente nas mesas brasileiras, a maminha é a parte mais macia da alcatra. Sua suculência e sabor suave fazem com que seja excelente para assados, churrasco ou na grelha, e também como carne de panela.</p>
-      <a href="#" class=" btn btn-primary" >Comprar</a>
-    </div>
-
-    <div class="carousel-card">
-      <img src="d13c4158c4.png">
-      <h3 class="titulo-card-tradicionais" id="cowboyAngus">Cowboy Angus 1.100g</h3>
-      <p class="paragrafo-card-tradicionais" id="paragrafoCowboyangus">Riquíssimo em sabor, maciez e suculência, o cowboy está localizado no dianteiro e é a continuação do ribeye que faz muito sucesso nos grandes restaurantes de carne.</p>
-      <a href="#" class=" btn btn-primary" >Comprar</a>
-    </div>
-
-    <div class="carousel-card">
-      <img src="picanha-angus-1200kg-congelado-20f9d40a.png">
-      <h3 class="titulo-card-tradicionais" id="picanhaAngus">Picanha angus 1200kg</h3>
-      <p class="paragrafo-card-tradicionais" id="paragrafoPicanhaangus">Rainha do churrasco brasileiro, a picanha CARAPRETA é ainda mais macia. Saborosa e com marmoreio inigualável com esta peça, você terá uma experiência única.</p>
-      <a href="#" class=" btn btn-primary" >Comprar</a>
-    </div>
-
-    <div class="carousel-card">
-      <img src="denver-angus-903g-congelado-a4e97b12.png">
-      <h3 class="titulo-card-tradicionais" id="denverAngus903">Denver-angus-903g</h3>
-      <p class="paragrafo-card-tradicionais" id="paragrafoDenverangus903">O denver steak, Retirado da parte
-                  mais macia do acém, é saborosíssimo e ideal em assados e na grelha. Com bom marmoreio, o corte vem
-                  ganhando popularidade.</p>
-      <a href="#" class=" btn btn-primary" >Comprar</a>
-    </div>
-
-    <div class="carousel-card">
-      <img src="fraldinha-angus-975g-congelado-787976ce.png">
-      <h3 class="titulo-card-tradicionais" id="fraldinhaAngus">Fraldinha angus 975g</h3>
-      <p class="paragrafo-card-tradicionais" id="paragrafoFraldinhaAngus">O denver é um corte extremamente saboroso e macio. Também conhecido como denver steak ou underblade steak, é uma ótima opção para churrasco e grelhados.</p>
-      <a href="#" class=" btn btn-primary" >Comprar</a>
-    </div>
-
-    <div class="carousel-card">
-      <img src="tomahawk-angus-950g-congelado-d2ff6d5f.png">
-      <h3 class="titulo-card-tradicionais">Tomahawk angus 950g congelado</h3>
-      <p class="paragrafo-card-tradicionais">O tomahawk é uma peça de carne com osso, conhecida por seu formato parecido com um machado de guerra. É um corte especial que impressiona pelo visual e pelo sabor, perfeito para churrascos e ocasiões especiais.</p>
-      <a href="#" class=" btn btn-primary" >Comprar</a>
-    </div>
-  </div>
-</div>
-    
-<button class="carousel-next-card">Próximo</button>
-</div> 
-
-    </section>  
-
-     <div id="transicao-carnes-nobres">
-      <img src="Logo Delicias da carne.png" id="logo-transicao-carnes" alt="Logo delicias da carne"
+    <div id="transicao-carnes-nobres">
+      <img src="imagens/Logo Delicias da carne.png" id="logo-transicao-carnes" alt="Logo delicias da carne"
         title="Logo delicias da carne ">
-    </div> 
-    
-     <section id="section-cortes-exoticos">
+    </div>
 
-       <div id="centro">
-       <div class="alinhamento-h2" id="alinhamento-bandeira-nobres">
-        <img class="alinhamento-h2" id="bandeira-esquerda" src="ribbon-left.png">
-        <h2 id="titulo-carnes-nobres">
-          <div id="borda-h2">
-            <p id="carnes-nobres-h2">Cortes Exóticos</p>
+    <section id="section-cortes-exoticos">
+
+      <div class="largura-exoticas">
+        <div id="centro">
+          <div class="alinhamento-h2" id="alinhamento-bandeira-nobres">
+            <img class="alinhamento-h2" id="bandeira-esquerda" src="imagens/ribbon-left.png">
+            <h2 id="titulo-carnes-nobres">
+              <div id="borda-h2">
+                <p id="carnes-nobres-h2">Cortes Exóticos</p>
+              </div>
+            </h2>
+            <img class="alinhamento-h2" id="bandeira-direita" src="imagens/ribbon-right.png">
           </div>
-        </h2>
-        <img class="alinhamento-h2" id="bandeira-direita" src="ribbon-right.png">
-      </div> 
+        </div>
+
+        <div class="exoticas-grid">
+
+          <div class="container-texte-exoticas">
+            <div id="card-paragrafo-exoticas">
+              <p id="paragrafo-carnes-exoticas-1">Se você é um amante da gastronomia e gosta de experimentar sabores
+                exóticos,
+                não pode deixar de conhecer a seção
+                Delícias da Carne do nosso website. Nessa seção, você encontrará uma grande variedade de carnes
+                exóticas,
+                todas
+                selecionadas com muito cuidado para garantir a melhor qualidade e sabor.</p>
+
+              <p id="paragrafo-carnes-exoticas-2">Que tal experimentar a suculenta carne de cordeiro? Essa carne é
+                conhecida
+                por sua maciez e sabor único, que vai
+                surpreender o seu paladar. Ou quem sabe, experimentar a carne de jacaré? Essa carne é muito apreciada em
+                alguns
+                países, e tem uma textura surpreendente e sabor marcante.</p>
+
+              <p id="paragrafo-carnes-exoticas-3">Além disso, você também pode experimentar a carne de pato ou porco,
+                que são
+                preparadas com muito cuidado e carinho
+                pelos nossos especialistas em carnes. E se você não sabe como preparar essas carnes, não se preocupe,
+                temos
+                receitas deliciosas e práticas para que você possa desfrutar de todo o sabor dessas carnes em sua
+                própria
+                casa.</p>
+
+              <p id="paragrafo-carnes-exoticas-4">Não perca a oportunidade de experimentar essas delícias da carne e
+                surpreender o seu paladar. Entre agora mesmo em
+                nosso website e faça o seu pedido. Garantimos que você não irá se arrepender e vai querer experimentar
+                todas
+                as
+                nossas opções de carne exótica. Venha conhecer o sabor da qualidade e tradição do açougue Delícias da
+                Carne!
+              </p>
+            </div>
+          </div>
+          <div class="div-homem-porno">
+            <img src="imagens/homem segurando porco transparente.png" id="homem-segurando-porco"
+              alt="homem segurando porco">
+          </div>
+        </div>
+
+        <div class="grid-cars-exoticas">
+          <div class="card-exoticas" id="card-carnes-exoticas-1">
+            <div class="imagem-carnes-tradicionais"><img class="imagem-exoticas" src="imagens/1591213c4d.png" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title-2"> Carne de Cordeiro</h5>
+              <p class="card-text">A carne de cordeiro é macia e saborosa, com uma textura delicada. É uma opção
+                versátil
+                para diversas preparações culinárias.</p>
+              <a href="#" id="botao-cordeiro" class="btn btn-primary button-exoticas">Comprar</a>
+            </div>
+          </div>
+
+          <div class="card-exoticas" id="card-carnes-exoticas-2">
+            <div class="imagem-carnes-tradicionais"><img class="imagem-exoticas"
+                src="imagens/javali-e-vinho-adobestock_140499871-1-scaled.png" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title-2">Carne de Javali</h5>
+              <p class="card-text">
+                A carne de javali é uma opção saudável e nutritiva, com baixo teor de gordura e alto teor
+                de proteínas.
+              </p>
+              <a href="#" id="botao-javali" class="btn btn-primary button-exoticas">Comprar</a>
+            </div>
+          </div>
+
+          <div class="card-exoticas" id="card-carnes-exoticas-3">
+            <div class="imagem-carnes-tradicionais"><img class="imagem-exoticas" src="imagens/P046-capivara.jpg"
+                alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title-2">Carne de Capivara</h5>
+              <p class="card-text">A capivara é uma carne exótica, com uma textura firme e um sabor que lembra
+                carne bovina. </p>
+              <a href="#" id="botao-capivara" class="btn btn-primary button-exoticas">Comprar</a>
+            </div>
+          </div>
+
+          <div class="card-exoticas" id="card-carnes-exoticas-4">
+            <div class="imagem-carnes-tradicionais"><img class="imagem-exoticas" src="imagens/jacare.jpg" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title-2">Carne de Jacare</h5>
+              <p class="card-text">A carne de jacaré é branca, macia e suculenta, com um sabor suave que lembra frango
+                ou
+                peixe.</p>
+              <a href="#" id="botao-jacare" class="btn btn-primary button-exoticas">Comprar</a>
+            </div>
+          </div>
+
+
+          <div class="card-exoticas" id="card-carnes-exoticas-5">
+            <div class="imagem-carnes-tradicionais"><img class="imagem-exoticas"
+                src="imagens/ACOUGUE-BISTECA-DE-PORCO-S-CP-KG.webp" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title-2">Bisteca de Porco</h5>
+              <p class="card-text">A bisteca de porco é um corte de carne com osso, que apresenta um sabor rico e
+                suculento,
+                devido ao marmoreio natural da carne</p>
+              <a href="#" id="botao-bisteca" class="btn btn-primary button-exoticas">Comprar</a>
+            </div>
+          </div>
+
+          <div class="card-exoticas" id="card-carnes-exoticas-6">
+            <div class="imagem-carnes-tradicionais"><img class="imagem-exoticas"
+                src="imagens/peito_picanha_pato_germania_1kg_24ff5ef4-d3d2-4d8a-ade5-2dac808fddec.jpg" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title-2">Picanha de Peito de Pato</h5>
+              <p class="card-text">A picanha do peito de pato é uma opção gourmet que pode ser apreciada em pratos
+                sofisticados, como risotos, saladas e até mesmo hamburgueres gourmet.</p>
+              <a href="#" id="botao-pato" class="btn btn-primary button-exoticas">Comprar</a>
+            </div>
+          </div>
+
+          <div class="card-exoticas" id="card-carnes-exoticas-7">
+            <div class="imagem-carnes-tradicionais"><img class="imagem-exoticas"
+                src="imagens/coelho-cortes-kg-617678-1.png" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title-2">Corte de coelho </h5>
+              <p class="card-text">A carne de coelho é frequentemente utilizada em pratos da culinária mediterrânea e
+                pode
+                ser preparada de diversas formas.</p>
+              <a href="#" id="botao-coelho" class="btn btn-primary button-exoticas">Comprar</a>
+            </div>
+          </div>
+
+          <div class="card-exoticas" id="card-carnes-exoticas-8">
+            <div class="imagem-carnes-tradicionais"><img class="imagem-exoticas"
+                src="imagens/images (1)_jpgavestruz 2.png" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title-2">Carne de Avestruz</h5>
+              <p class="card-text">A carne de avestruz é rico em ferro, vitaminas
+                e nutrientes essenciais para a saúde. </p>
+              <a href="#" id="botao-avestruz" class="btn btn-primary button-exoticas">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <sectionv class="section-transicao-exoticas">
+
+      <div id="transicao-exoticas">
+        <div id="fundo-transicao-exoticas">
+          <img src="imagens/Logo Delicias da carne.png" id="logo-transicao" alt="logo delicias da carme">
+        </div>
       </div>
 
+    </section>
+
+    <section id="sobre">  
+    <div id="div-sobre">
        
-
-      <div id="card-paragrafo-exoticas">
-        <p id="paragrafo-carnes-exoticas-1">Se você é um amante da gastronomia e gosta de experimentar sabores exóticos,
-          não pode deixar de conhecer a seção
-          Delícias da Carne do nosso website. Nessa seção, você encontrará uma grande variedade de carnes exóticas,
-          todas
-          selecionadas com muito cuidado para garantir a melhor qualidade e sabor.</p>
-
-        <p id="paragrafo-carnes-exoticas-2">Que tal experimentar a suculenta carne de cordeiro? Essa carne é conhecida
-          por sua maciez e sabor único, que vai
-          surpreender o seu paladar. Ou quem sabe, experimentar a carne de jacaré? Essa carne é muito apreciada em
-          alguns
-          países, e tem uma textura surpreendente e sabor marcante.</p>
-
-        <p id="paragrafo-carnes-exoticas-3">Além disso, você também pode experimentar a carne de pato ou porco, que são
-          preparadas com muito cuidado e carinho
-          pelos nossos especialistas em carnes. E se você não sabe como preparar essas carnes, não se preocupe, temos
-          receitas deliciosas e práticas para que você possa desfrutar de todo o sabor dessas carnes em sua própria
-          casa.</p>
-
-        <p id="paragrafo-carnes-exoticas-4">Não perca a oportunidade de experimentar essas delícias da carne e
-          surpreender o seu paladar. Entre agora mesmo em
-          nosso website e faça o seu pedido. Garantimos que você não irá se arrepender e vai querer experimentar todas
-          as
-          nossas opções de carne exótica. Venha conhecer o sabor da qualidade e tradição do açougue Delícias da Carne!
-        </p>
-      </div>
-
-      <img src="homem segurando porco transparente.png" id="homem-segurando-porco" alt="homem segurando porco">
-
-<div class="card" id="card-carnes-exoticas-1">
-        <div class="imagem-carnes-tradicionais"><img class="imagem-exoticas" src="1591213c4d.png"  alt="...">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title-2"> Carne de Cordeiro</h5>
-          <p class="card-text">A carne de cordeiro é macia e saborosa, com uma textura delicada. É uma opção versátil
-            para diversas preparações culinárias.</p>
-          <a href="#"  id="button-margin" class="btn btn-primary button-exoticas">Comprar</a>
+      <div id="centro">
+        <div class="alinhamento-h2" id="alinhamento-bandeira-nobres">
+          <img class="alinhamento-h2" id="bandeira-esquerda" src="imagens/ribbon-left.png">
+          <h2 id="titulo-carnes-nobres">
+            <div id="borda-h2">
+              <p id="carnes-nobres-h2">Sobre</p>
+            </div>
+          </h2>
+          <img class="alinhamento-h2" id="bandeira-direita" src="imagens/ribbon-right.png">
         </div>
       </div>
 
-      <div class="card" id="card-carnes-exoticas-2">
-        <div class="imagem-carnes-tradicionais"><img class="imagem-exoticas" src="javali-e-vinho-adobestock_140499871-1-scaled.png" 
-            alt="...">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title-2">Carne de Javali</h5>
-          <p class="card-text">
-            A carne de javali é uma opção saudável e nutritiva, com baixo teor de gordura e alto teor
-            de proteínas.
-          </p>
-          <a href="#" id="button-margin"  class="btn btn-primary button-exoticas">Comprar</a>
-        </div>
-      </div>
-
-      <div class="card" id="card-carnes-exoticas-3">
-        <div class="imagem-carnes-tradicionais"><img class="imagem-exoticas" src="P046-capivara.jpg"  alt="...">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title-2">Carne de Capivara</h5>
-          <p class="card-text">A capivara é uma carne exótica, com uma textura firme e um sabor que lembra
-            carne bovina. </p>
-          <a href="#" id="button-margin"  class="btn btn-primary button-exoticas">Comprar</a>
-        </div>
-      </div>
-
-      <div class="card" id="card-carnes-exoticas-4">
-        <div class="imagem-carnes-tradicionais"><img class="imagem-exoticas" src="jacare.jpg"  alt="...">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title-2">Carne de Jacare</h5>
-          <p class="card-text">A carne de jacaré é branca, macia e suculenta, com um sabor suave que lembra frango ou
-            peixe.</p>
-          <a href="#" id="button-margin"  class="btn btn-primary button-exoticas">Comprar</a>
-        </div>
-      </div>
-
-
-       <div class="card" id="card-carnes-exoticas-5">
-        <div class="imagem-carnes-tradicionais"><img class="imagem-exoticas" src="ACOUGUE-BISTECA-DE-PORCO-S-CP-KG.webp"  alt="...">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title-2">Bisteca de Porco</h5>
-          <p class="card-text">A bisteca de porco é um corte de carne com osso, que apresenta um sabor rico e suculento,
-            devido ao marmoreio natural da carne</p>
-          <a href="#" id="button-margin"  class="btn btn-primary button-exoticas">Comprar</a>
-        </div>
-      </div>
-
-      <div class="card" id="card-carnes-exoticas-6">
-        <div class="imagem-carnes-tradicionais"><img class="imagem-exoticas" src="peito_picanha_pato_germania_1kg_24ff5ef4-d3d2-4d8a-ade5-2dac808fddec.jpg"
-             alt="...">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title-2">Picanha de Peito de Pato</h5>
-          <p class="card-text">A picanha do peito de pato é uma opção gourmet que pode ser apreciada em pratos
-            sofisticados, como risotos, saladas e até mesmo hamburgueres gourmet.</p>
-          <a href="#" id="botao-pato" class="btn btn-primary button-exoticas">Comprar</a>
-        </div>
-      </div>
-
-      <div class="card" id="card-carnes-exoticas-7">
-        <div class="imagem-carnes-tradicionais"><img class="imagem-exoticas" src="coelho-cortes-kg-617678-1.png" alt="...">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title-2">Corte de coelho </h5>
-          <p class="card-text">A carne de coelho é frequentemente utilizada em pratos da culinária mediterrânea e pode
-            ser preparada de diversas formas, como grelhada, assada ou ensopada.</p>
-          <a href="#" id="botao-coelho" class="btn btn-primary button-exoticas">Comprar</a>
-        </div>
-      </div>
-
-      <div class="card" id="card-carnes-exoticas-8">
-        <div class="imagem-carnes-tradicionais"><img class="imagem-exoticas" src="images (1)_jpgavestruz 2.png" alt="...">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title-2">Carne de Avestruz</h5>
-          <p class="card-text">A carne de avestruz é rico em ferro, vitaminas
-            e nutrientes essenciais para a saúde.Com um sabor que pode
-            ser descrito como um cruzamento entre carne bovina e de frango. </p>
-          <a href="#" id="botao-avestruz" class="btn btn-primary button-exoticas">Comprar</a>
-        </div>
-      </div>
-
-
-
-
-
-    </section>
-     
-    <section>
-      
-      <div id="transicao-exoticas" >
-     <div id="fundo-transicao-exoticas">
-        <img src="Logo Delicias da carne.png" id="logo-transicao" alt="logo delicias da carme">
-      </div>
-      </div>
-      
-
-    </section>
-
-    <section id="sobre">
-
-     <div id="centro">
-       <div class="alinhamento-h2" id="alinhamento-bandeira-nobres">
-        <img class="alinhamento-h2" id="bandeira-esquerda" src="ribbon-left.png">
-        <h2 id="titulo-carnes-nobres">
-          <div id="borda-h2">
-            <p id="carnes-nobres-h2">Sobre</p>
-          </div>
-        </h2>
-        <img class="alinhamento-h2" id="bandeira-direita" src="ribbon-right.png">
-      </div> 
-      </div>
-
-
+      <div class="grid-sobre">
 
         <div id="sobre-acougue">
-          <img src="Logo Delicias da carne.png" id="sobre-delicias-da-carne" alt="logo delicias da carne">
+          <img src="imagens/Logo Delicias da carne.png" id="sobre-delicias-da-carne" alt="logo delicias da carne">
         </div>
+
         <div id="paragrafo-acougue">
           <h3 id="titulo-acougue">Historia Delicias Da Carne </h3>
           <p id="historia-delicias-da-carne-1">O Delícias da Carne é um açougue com uma longa história na região.
@@ -477,14 +580,13 @@
         </div>
       </div>
 
+      <div id="div-sobre-acougue-2">
 
-
-      
-        <div id="div-sobre-acougue-2">
- <div id="sobre-entrega">
-          <img src="sobre-entrega.png" id="sobre-entrega-img" alt="logo delicias da carne">
+        <div id="sobre-entrega-colum">
+          <img src="imagens/sobre-entrega.png" id="sobre-entrega-img" alt="logo delicias da carne">
         </div>
-          <div id="paragrafo-caminhao">
+        
+        <div id="paragrafo-caminhao">
           <h3 id="titulo-entregas">Confiança e segurança em cada entrega !</h3>
           <p id="paragrafo-entrega-caminhao"> Nós entendemos a importância de garantir a qualidade<br> e a segurança da
             carne
@@ -492,14 +594,20 @@
             processo de transporte, para assegurar<br> que a mercadoria chegue até você com a mesma <br> qualidade e
             frescor do momento em que foi embalada.</p>
         </div>
+        <div id="sobre-entrega">
+          <img src="imagens/sobre-entrega.png" id="sobre-entrega-img" alt="logo delicias da carne">
+        </div>
       </div>
+      
 
 
       <div id="div-sobre-acougue-3">
+
         <div id="sua-casa">
-          <img src="asmelhoresestrategiasdefretegratiseenvionoecommerce.jpeg" id="foto-entrega"
+          <img src="imagens/asmelhoresestrategiasdefretegratiseenvionoecommerce.jpeg" id="foto-entrega"
             alt="logo delicias da carne">
         </div>
+
         <div id="paragrafo-casa">
           <h3 id="titulo-atendimento">Atendimento</h3>
           <p id="paragrafo-atendimento-1">O Delícias da Carne é conhecido pela qualidade de suas carnes, mas também pelo
@@ -513,112 +621,146 @@
         </div>
       </div>
 
-
-
-    </section >
-    <div id="transicao-sobre" >
-     <div id="fundo-transicao-sobre">
-        <img src="Logo Delicias da carne.png" id="transição-formulario">
       </div>
+    </div>
+    </section>
+
+    <div id="transicao-sobre">
+      <div id="fundo-transicao-sobre">
+        <img src="imagens/Logo Delicias da carne.png" id="transição-formulario">
       </div>
+    </div>
 
     <section id="formulario">
 
-      
-     <div id="centro-formulario">
-       <div class="alinhamento-h2" id="alinhamento-bandeira-nobres">
-        <img class="alinhamento-h2" id="bandeira-esquerda" src="ribbon-left.png">
-        <h2 id="titulo-carnes-nobres">
-          <div id="borda-h2">
-            <p id="carnes-nobres-h2">Formulario</p>
-          </div>
-        </h2>
-        <img class="alinhamento-h2" id="bandeira-direita" src="ribbon-right.png">
-      </div> 
+
+      <div id="centro">
+        <div class="alinhamento-h2" id="alinhamento-bandeira-nobres">
+          <img class="alinhamento-h2" id="bandeira-esquerda" src="imagens/ribbon-left.png">
+          <h2 id="titulo-carnes-nobres">
+            <div id="borda-h2">
+              <p id="carnes-nobres-h2">Formulario</p>
+            </div>
+          </h2>
+          <img class="alinhamento-h2" id="bandeira-direita" src="imagens/ribbon-right.png">
+        </div>
       </div>
+
+      
 
       <div id="div-formulario">
+        <div class="div-centraliza-formulario">
 
-   <label id="nomeLabel" for="nome">Nome:</label>      
-  <input id="nome" class ="formulario-nome" type="text" placeholder="Digite seu nome completo" required>
-  <p class="aviso-nome">O nome está incorreto</p>
-  <br>
-  <br>
-  <label id="emailLabel" for="email">Email:</label> 
-  <input id="email" class ="formulario-email" type="email" placeholder="Digite seu e-mail">
-  <p class="aviso-email"> Email incorreto</p>
-  <br>
-  <br>
-  <label id="telefoneLabel" for="telefone">telefone:</label> 
-  <input id="telefone" class="formulario-telefone" type="tel" placeholder="Digite seu telefone">
-  <p class="aviso-tel"> tenefone incorreto</p>
+        <div class="div-nome-formulario">
+        <label id="nomeLabel" for="nome">Nome:</label>
+        <input id="nome" class="formulario-nome" type="text" placeholder="Digite seu nome completo" required>
+        <p class="aviso-nome">O nome está incorreto</p>
+        </div>
+        <br>
+        <br>
+        <div class="div-nome-formulario">
+        <label id="emailLabel" for="email">Email:</label>
+        <input id="email" class="formulario-email" type="email" placeholder="Digite seu e-mail">
+        <p class="aviso-email"> Email incorreto</p>
+        </div>
+        <br>
+        <br>
+        <div class="div-nome-formulario">
+        <label id="telefoneLabel" for="telefone">telefone:</label>
+        <input id="telefone" class="formulario-telefone" type="tel" placeholder="Digite seu telefone">
+        <p class="aviso-tel"> tenefone incorreto</p>
+        </div>
+        
+        <div class="container-checkbox">
+          <div class="checkbox-carnes-exóticas"></div>
+          <p class="paragrafo-checkbox">Carnes exóticas</p>
 
-  
-<div class="container-checkbox">
-  <div class="checkbox-carnes-exóticas"></div>
-  <p class ="paragrafo-checkbox" >Carnes exóticas</p>
-  
-  <div class="checkbox-carnes-tradicionais"></div>
-  <p class="paragrafo-checkbox">Carnes tradicionais</p>
+          <div class="checkbox-carnes-tradicionais"></div>
+          <p class="paragrafo-checkbox">Carnes tradicionais</p>
 
-  <div class="checkbox-ambas"></div>
-  <p class="paragrafo-checkbox">Ambas</p>
-</div>
+          <div class="checkbox-ambas"></div>
+          <p class="paragrafo-checkbox">Ambas</p>
+        </div>
 
-<p class="aviso-checkbox-carnes">Marque uma das opções</p>
-  
-  <div class="container-select-itens">
-  <div class="select-itens" ><p id="paragrafo-select-itens">Sem Categoria (Todos da Agenda) </p><svg id="spand-less" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"/></svg></div>
-  <div class ="esconde-itens container-itens" >
-  <div class="div-itens select-carnes-bovinas"><p> Bovinas </p></div>
-  <div class="div-itens select-carnes-suinas"><p> Suínas </p></div>
-  <div class="div-itens select-carnes-aves"><p> Aves </p></div>
-  <div class="div-itens select-carnes-mar"><p> Frutos do Mar </p></div>
-  <div class="div-itens outros"><p> Outros </p></div>
-  </div>  
-  </div>
-  <p class="aviso-select-carnes"> Escolha uma opção <p>
+        <p class="aviso-checkbox-carnes">Marque uma das opções</p>
+      
+        <div class="div-centraliza-select">
+        <div class="container-select-itens">
+          <div class="select-itens">
+            <p id="paragrafo-select-itens">Sem Categoria (Todos da Agenda) </p><svg id="spand-less"
+              xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+              <path d="M0 0h24v24H0z" fill="none" />
+              <path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z" />
+            </svg>
+          </div>
+          <div class="esconde-itens container-itens">
+            <div class="div-itens select-carnes-bovinas">
+              <p> Bovinas </p>
+            </div>
+            <div class="div-itens select-carnes-suinas">
+              <p> Suínas </p>
+            </div>
+            <div class="div-itens select-carnes-aves">
+              <p> Aves </p>
+            </div>
+            <div class="div-itens select-carnes-mar">
+              <p> Frutos do Mar </p>
+            </div>
+            <div class="div-itens outros">
+              <p> Outros </p>
+            </div>
+          </div>
+        </div>
+        <p class="aviso-select-carnes"> Escolha uma opção
+        <p>
+        </div>
 
-  <label id="checkboxLabel" for="todos primeiro segundo" class = "titulo-comunicacao">Receber comunicações por:</label>
-  <div class="container-comunicao">
-  <div class="checkDesmarcado checkbox-comunicacao-todos" id = "todos"></div>
-  <p class="paragrafo-comunicao">Todos os meios</p>
+        <div class="div-checkbox">
+          <label id="checkboxLabel" for="todos primeiro segundo" class="titulo-comunicacao">Receber comunicações
+            por:</label>
+        <div class="container-comunicao">
+          <div class="checkDesmarcado checkbox-comunicacao-todos" id="todos"></div>
+          <p class="paragrafo-comunicao">Todos os meios</p>
 
-  <div class="checkDesmarcado checkbox-comunicacao-email" id = "primeiro"></div>
-  <p class="paragrafo-comunicao">E-mail</p>
+          <div class="checkDesmarcado checkbox-comunicacao-email" id="primeiro"></div>
+          <p class="paragrafo-comunicao">E-mail</p>
 
-  <div class="checkDesmarcado checkbox-comunicacao-sms" id = "segundo"></div>
-  <p class="paragrafo-comunicao">SMS</p>
-</div>
+          <div class="checkDesmarcado checkbox-comunicacao-sms" id="segundo"></div>
+          <p class="paragrafo-comunicao">SMS</p>
+        </div>
 
-<p class="aviso-checkbox-comunicacao" id = "aviso-co">Escolha uma opção</p>
+        <p class="aviso-checkbox-comunicacao" id="aviso-co">Escolha uma opção</p>
+      </div>
 
-  <label id="campo-texto-label" for="campo-texto">Mensagem:</label> 
-  <textarea id="campo-texto" class="campo-texto" oninput="checkCampoTexto()"></textarea>
-<p class="aviso-campo-texto" id = "aviso-texto">Preencha o campo</p>
+      <div class="div-text">
+        <label id="campo-texto-label" for="campo-texto">Mensagem:</label>
+        <textarea id="campo-texto" class="campo-texto" oninput="checkCampoTexto()"></textarea>
+        <p class="aviso-campo-texto" id="aviso-texto">Preencha o campo</p>
 
         <button class="button"></button>
-         
+     </div>
+    </div>
+
+
       </div>
-<img id="imagem-formulario" src="foto do formulario.png" alt="homem segurando faca">
-     
+      <img id="imagem-formulario" src="imagens/foto do formulario.png" alt="homem segurando faca">
+
       
 
     </section>
 
-
     <section id="section-google-maps">
 
-      <div id="centro-endereco" >
-       <div class="alinhamento-h2" id="alinhamento-bandeira-nobres">
-        <img class="alinhamento-h2" id="bandeira-esquerda" src="ribbon-left.png">
-        <h2 id="titulo-carnes-nobres">
-          <div id="borda-h2">
-            <p id="carnes-nobres-h2">Endereço</p>
-          </div>
-        </h2>
-        <img class="alinhamento-h2" id="bandeira-direita" src="ribbon-right.png">
-      </div> 
+      <div id="centro-endereco">
+        <div class="alinhamento-h2" id="alinhamento-bandeira-nobres">
+          <img class="alinhamento-h2" id="bandeira-esquerda" src="imagens/ribbon-left.png">
+          <h2 id="titulo-carnes-nobres">
+            <div id="borda-h2">
+              <p id="carnes-nobres-h2">Endereço</p>
+            </div>
+          </h2>
+          <img class="alinhamento-h2" id="bandeira-direita" src="imagens/ribbon-right.png">
+        </div>
       </div>
 
 
@@ -660,88 +802,90 @@
 
       </div>
     </section>
+
     <footer>
 
-<div id="div-imagem-footer">
-      <img src="Logo Delicias da carne.png" id="imagem-footer" alt="footer Lodo Delicias Da Carne">
+      <div class="flex">
 
-      <input id="email-footer" type="email">
-      <input id="botao-footer" type="button" value="Email">
-</div>
-      
-
-
-        <div id="informacoes-footer">
-          
-          <div id="footer-compras">
-            <h5 id="titulo-compras">Compras</h5>
-          </div>
-          <div id="informacoes-compras">
-            <p id="paragrafo-compras">
-            <ul>
-              <li><a href="#">REGIÕES ATENDIDAS</a></li>
-              <li><a href="#">POLÍTICA DE ENTREGA</a></li>
-              <li><a href="#">TERMOS DE SERVIÇO</a></li>
-              <li><a href="#">TROCAS E DEVOLUÇÕES</a></li>
-              <li><a href="#">POLÍTICA DE PRIVACIDADE</a></li>
-            </ul>
-            </p>
-          </div>
+      <div id="div-imagem-footer">
+        <img src="imagens/Logo Delicias da carne.png" id="imagem-footer" alt="footer Lodo Delicias Da Carne">
+        <input id="email-footer" type="email">
+        <input id="botao-footer" type="button" value="Email">
+      </div>
 
 
-          <div id="footer-saiba-mais">
-            <h5 id="titulo-saiba-mais">Saiba Mais</h5>
-          </div>
-          <div id="informacoes-saibamais">
-            <p id="paragrafo-saibamais">
-            <ul>
-              <li id="saibamais-li-1"><a href="#">FAQ</a></li>
-              <li id="saibamais-li-2"><a href="#">CONTATO</a></li>
-              <li id="saibamais-li-3"><a href="#">TRABALHE CONOSCO</a></li>
-              <li id="saibamais-li-4"><a href="#">REGULAMENTO CASHBACK</a></li>
-            </ul>
-            </p>
-          </div>
-
-          <div id="div-forma-pagamento">
-            <h5 id="div-titulo-pagamento">Forma de Pagamento</h5>
-          </div>
-          <div id="informacoes-pagamento">
-            
-
-              <img class="imagem-pagamento" src="paypal-express_50x50.png" alt="">
-              <img class="imagem-pagamento" src="png-transparent-logo-american-ex_50x50.png" alt="">
-              <img class="imagem-pagamento" src="boleto-58893aa15f0d8.pngw375h250_50x50.png" alt="">
-              <img class="imagem-pagamento" src="dinners_50x50.png" alt="">
-            
-
-            <div id="redes">
-              <h5 id="redes-titulo">Redes</h5>
-            </div>
-            <p id="paragrafo-redes">
-             <a href="#"><img class="imagem-rede" src="facebook.png" alt=""></a> 
-             <a href="#"><img class="imagem-rede" src="instagram.png" alt=""></a> 
-            </p>
-          </div>
+        <div id="footer-compras">
+          <h5 id="titulo-compras">Compras</h5>
+        </div>
+        <div id="informacoes-compras">
+          <p id="paragrafo-compras">
+          <ul>
+            <li><a href="#">REGIÕES ATENDIDAS</a></li>
+            <li><a href="#">POLÍTICA DE ENTREGA</a></li>
+            <li><a href="#">TERMOS DE SERVIÇO</a></li>
+            <li><a href="#">TROCAS E DEVOLUÇÕES</a></li>
+            <li><a href="#">POLÍTICA DE PRIVACIDADE</a></li>
+          </ul>
+          </p>
+        
+       </div>
 
 
-
+        <div id="footer-saiba-mais">
+          <h5 id="titulo-saiba-mais">Saiba Mais</h5>
+        </div>
+        <div id="informacoes-saibamais">
+          <p id="paragrafo-saibamais">
+          <ul>
+            <li id="saibamais-li-1"><a href="#">FAQ</a></li>
+            <li id="saibamais-li-2"><a href="#">CONTATO</a></li>
+            <li id="saibamais-li-3"><a href="#">TRABALHE CONOSCO</a></li>
+            <li id="saibamais-li-4"><a href="#">REGULAMENTO CASHBACK</a></li>
+          </ul>
+          </p>
         </div>
  
-     </footer> 
+        <div id="div-forma-pagamento">
+          <h5 id="div-titulo-pagamento">Forma de Pagamento</h5>
+        </div>
+        <div id="informacoes-pagamento">
+
+
+          <img class="imagem-pagamento" src="imagens/paypal-express_50x50.png" alt="">
+          <img class="imagem-pagamento" src="imagens/png-transparent-logo-american-ex_50x50.png" alt="">
+          <img class="imagem-pagamento" src="imagens/boleto-58893aa15f0d8.pngw375h250_50x50.png" alt="">
+          <img class="imagem-pagamento" src="imagens/dinners_50x50.png" alt="">
+
+
+          <div id="redes">
+            <h5 id="redes-titulo">Redes</h5>
+          </div>
+          <p id="paragrafo-redes">
+            <a href="#"><img class="imagem-rede" src="imagens/facebook.png" alt=""></a>
+            <a href="#"><img class="imagem-rede" src="imagens/instagram.png" alt=""></a>
+          </p>
+        </div> 
+
+      
+    
+
+    </footer>
+
   </main>
 
 
 
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</script>
- 
- <script src="carnes_nobres.js"></script>
- <script src="script.js"></script>
- <script src= "formulario.js"></script>
-</script>
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+  </script>
+
+  <script src="carnes_nobres.js"></script>
+  <script src="script.js"></script>
+  <script src="formulario.js"></script>
+  </script>
 
 
 </body>

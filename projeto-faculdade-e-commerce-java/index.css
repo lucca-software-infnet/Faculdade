@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #9370DB;
+    height: 3000px;
+}
+
+
+
+.carousel {
+    height: 700px; 
+    width: 1500px;
+    margin-left: 200px; 
+    
+}
+.img-carousel-principal {
+    height: 700px; 
+    width: 1500px;
+    
+}
+
+
+.carousel-inner{
+    height: 700px;
+    width: 1500px;
+   
+}
+
+.imagem-carousel{
+    height: 700px;
+    width: 1500px;
+}
+
+.pt-5{
+    margin-top: 60px;
+    position: relative;
+    width: 1850px;
+    
+}
+
+.container{
+    position: relative;
+    margin-left: 55px;
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+}
+.card{
+    width: 250px; 
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.col-md-4{
+    width: auto;
+}
+.card {
+    max-width: 100%;
+}
+
+.mr-1 {
+    position: absolute;
+    left: 100px;
+    top: 190px;
+    border: 2px solid black;
+}
+.mr-2{
+    position: absolute;
+    border: 2px solid black;
+    top: 190px;
+    margin-left: -50px;
+    margin-right: 0px;
+    z-index: 10;
+}
+
+
+
+.carousel-inner .row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+
+.carousel-inner .col-md-2 {
+    margin-right: 10px; 
+}
+
+
+.carousel-inner .col-md-2:last-child {
+    margin-right: 0;
+}
+
+
+.carousel-inner .carousel-item:first-child .col-md-2 {
+    margin-right: 10px; 
+}
+
+
+.carousel-inner .carousel-item:last-child .col-md-2:last-child {
+    margin-right: 10px; 
+}
+
+.carousel-inner .row {
+    max-width: 2000px; 
+}
+
+
+.overflow-hidden {
+    background-color: white;
+}
+
+.grid-eletronicos{
+    position: absolute;
+    top: 1400px;
+    width: 450px;
+    height: 500px;
+    margin-left: 150px;
+}
+
+.grid-bebidas{
+    position: absolute;
+    top: 1400px;
+    width: 450px;
+    height: 500px;
+    margin-left: 700px;
+}
+
+.grid-domestico{
+    position: absolute;
+    top: 1400px;
+    width: 450px;
+    height: 500px;
+    margin-left: 1250px;
+}
+
+.p-3{
+    height: 160px;
+}
+
+.grid-eletronicos-1{
+    margin-top: 40px;
+}
+
+.grid-eletronicos-2{
+    margin-top: 40px;
+}
+.grid-eletronicos-3{
+    margin-top: 10px;
+}
+
+.grid-eletronicos-4{
+    
+    margin-top: 10px;
+}
+
+.imagem-grid{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ajusta-imagem{
+    height: 130px;
+    width: 100px;
+    margin-left: 25px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 200px); /* 7 colunas de 200px cada */
+    grid-template-rows: repeat(2, 200px);    /* 2 linhas de 200px cada */
+    justify-content: center; 
+    align-items: center;
+    width: 1400px;
+    margin-top: 500px;
+    background-color: black;
+    margin-left: 230px;
+}
+
+.grid-item {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+
+@media screen and (max-width:574px) {
+    .mr-2{
+        margin-left: -210px;
+    }
+}

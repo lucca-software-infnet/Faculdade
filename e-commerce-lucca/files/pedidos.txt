@@ -1,0 +1,3 @@
+Primeiro pedido do dia;20-11-2023;27-11-2023;true;lucca nicassio;1231445216524;lucca@hotmail.com
+Coca-Cola;789012;9.99;Bebida;Descrição do Produto ;Maria;3;skol;Médio;true
+Apple;345678;49.99;Celular;Descrição do Produto ;Carlos;1;appleMarca;Pequeno;false

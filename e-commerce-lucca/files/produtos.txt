@@ -1,0 +1,3 @@
+Notebook Inspiron;123456789;2499.99;Eletrônico;Notebook de última geração;Usuario1;4
+Smart TV 4K;987654321;899.99;Eletrônico;TV com resolução 4K;Usuario2;4.5
+Câmera DSLR;654321987;699.99;Eletrônico;Câmera profissional;Usuario3;3.8

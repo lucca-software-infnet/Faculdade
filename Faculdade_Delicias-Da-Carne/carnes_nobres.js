@@ -101,3 +101,5 @@ document.addEventListener('DOMContentLoaded', function() {
   // Chamar a função sempre que a janela for redimensionada
   window.addEventListener('resize', updateCardVisibility);
 });
+
+

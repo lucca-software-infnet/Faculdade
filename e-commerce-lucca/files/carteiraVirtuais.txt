@@ -1,0 +1,4 @@
+1000.0;senha123;Usuario1
+500.0;senha456;Usuario2
+750.0;senha789;Usuario3
+

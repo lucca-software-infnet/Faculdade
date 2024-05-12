@@ -1,0 +1,3 @@
+Smartphone X1;Samsung;Android;Galaxy X1;123456789;899.99;Eletrônico;Smartphone avançado;NomeVendedor;4
+iPhone 13;Apple;iOS;iPhone 13;987654321;1099.99;Eletrônico;iPhone de última geração;OutroVendedor;4.5
+Moto G7;Motorola;Android;Moto G7;654321987;299.99;Eletrônico;Smartphone acessível;VendedorXYZ;3.8
