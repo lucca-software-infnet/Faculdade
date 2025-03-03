@@ -14,60 +14,70 @@ let checkboxComunicacaoSms = document.querySelector(".checkDesmarcado.checkbox-c
 let checkboxComunicacaoEmail = document.querySelector(".checkDesmarcado.checkbox-comunicacao-email");
 
 
-    let iconeMenu = document.querySelector('.icone-menu');
-    let menuHamburguer = document.querySelector('#menu-amburguer');
-    let fechar = document.querySelector(".fechar")
+let iconeMenu = document.querySelector('.icone-menu');
+let menuHamburguer = document.querySelector('#menu-amburguer');
+let fechar = document.querySelector(".fechar")
 
-    
 
-    iconeMenu.addEventListener('click', function() {
-      if (menuHamburguer.style.display === 'none') {
-        menuHamburguer.style.display = 'flex';
-      } else {
-        menuHamburguer.style.display = 'none';
-      }
-    });
-    
-    fechar.addEventListener("click", function(){
-      if (menuHamburguer.style.display === 'flex') {
-        menuHamburguer.style.display = 'none';
-      }
-    })
+
+iconeMenu.addEventListener('click', function () {
+  if (menuHamburguer.style.display === 'none') {
+    menuHamburguer.style.display = 'flex';
+  } else {
+    menuHamburguer.style.display = 'none';
+  }
+});
+
+fechar.addEventListener("click", function () {
+  if (menuHamburguer.style.display === 'flex') {
+    menuHamburguer.style.display = 'none';
+  }
+})
 
 // BARRA DE PESQUISA
 let barraPesquisa = document.getElementById("searchInput");
 let resultado = document.getElementById("resultado");
 let lupa = document.getElementById("lupa");
 
-lupa.addEventListener("click", function() {
+lupa.addEventListener("click", function () {
   barraPesquisa.classList.toggle("pesquisa");
   resultado.classList.toggle("resultadoAparece")
 });
 
 let dados = [
-  { nome: "flat iron angus", imagem: "imagens/flat-iron-angus-1010g-congelado-8c1529e1.png", 
-   link: "https://boutique.carapretaoficial.com.br/flat-iron-angus-1kg/product/221610" },
-  { nome: "denver angus", imagem: "imagens/denver-angus-903g-congelado-a4e97b12.png", 
-   link: "https://boutique.carapretaoficial.com.br/denver-angus-903g/product/221606" },
-  { nome: "ancho angus porcionado", imagem: "imagens/ancho-angus-porcionado-1106g-congelado-5e0640bf.png", 
-   link:"https://boutique.carapretaoficial.com.br/ancho-angus-1050kg/product/221615" },
-  { nome: "picanha angus", imagem: "imagens/picanha-angus-1200kg-congelado-20f9d40a.png",
-  link:"https://boutique.carapretaoficial.com.br/picanha-angus-11kg/product/221605"},
-  { nome: "maminha angus", imagem: "imagens/maminha-angus-960g-congelado-060819a3.png",
-  link: "https://boutique.carapretaoficial.com.br/maminha-angus-1180kg/product/221612"},
-  {nome :"skirt steak angus ", imagem:"imagens/3dec7dc8e0.png", link:"https://boutique.carapretaoficial.com.br/skirt-steak-angus-706g/product/221602"},
-  {nome: "fraldinha angus ", imagem:"imagens/fraldinha-angus-975g-congelado-787976ce.png", link:"https://boutique.carapretaoficial.com.br/fraldinha-red-angus-610g/product/221611"},
-  {nome:"Tomahawk angus ", imagem:"imagens/tomahawk-angus-950g-congelado-d2ff6d5f.png", link:"https://boutique.carapretaoficial.com.br/tomahawk-angus-950g/product/221621"},
-  {nome:"cowboy angus ",imagem:"imagens/d13c4158c4.png", link:"https://boutique.carapretaoficial.com.br/cowboy-angus-750g/product/221620"},
-  {nome:"bisteca de porco", imagem:"imagens/ACOUGUE-BISTECA-DE-PORCO-S-CP-KG.webp",link:"https://www.swift.com.br/bisteca-swift-mais-1kg/p"},
-  {nome:"javali", imagem:"imagens/1591213c4d.png", link:"https://www.zezinhocarnes.com.br/produto/javali/"},
-  {nome:"coelho",imagem:"imagens/coelho-cortes-kg-617678-1.png",link:"https://www.zezinhocarnes.com.br/produto/coelho/"},
-  {nome:"capivara",imagem:"imagens/P046-capivara.jpg",link:"https://porcofeliz.com.br/capivara/"},
-{nome:"peito de pato",imagem:"imagens/peito_picanha_pato_germania_1kg_24ff5ef4-d3d2-4d8a-ade5-2dac808fddec.jpg",link:"https://www.swift.com.br/peito-de-pato-swift-480g/p?idsku=1744&utm_source=Google_Shopping&gclid=CjwKCAjwsvujBhAXEiwA_UXnAJeIy_ze88tCuJlDNb4AAgsrgQbVvxnj3S_2bMl1jw5Dz86LVv3GDRoCcuAQAvD_BwE"},
-{nome:"avestruz",imagem:"imagens/images (1)_jpgavestruz 2.png",link:"https://multsaudedistribuidora.com.br/product/carne-de-avestruz-com-osso/"},
-  {nome:"jacaré",imagem:"imagens/jacare.jpg",link:"https://padovanialimentos.com.br/product/jacare-cortes/"}
-  
-  
+  {
+    nome: "flat iron angus", imagem: "imagens/flat-iron-angus-1010g-congelado-8c1529e1.png",
+    link: "https://boutique.carapretaoficial.com.br/flat-iron-angus-1kg/product/221610"
+  },
+  {
+    nome: "denver angus", imagem: "imagens/denver-angus-903g-congelado-a4e97b12.png",
+    link: "https://boutique.carapretaoficial.com.br/denver-angus-903g/product/221606"
+  },
+  {
+    nome: "ancho angus porcionado", imagem: "imagens/ancho-angus-porcionado-1106g-congelado-5e0640bf.png",
+    link: "https://boutique.carapretaoficial.com.br/ancho-angus-1050kg/product/221615"
+  },
+  {
+    nome: "picanha angus", imagem: "imagens/picanha-angus-1200kg-congelado-20f9d40a.png",
+    link: "https://boutique.carapretaoficial.com.br/picanha-angus-11kg/product/221605"
+  },
+  {
+    nome: "maminha angus", imagem: "imagens/maminha-angus-960g-congelado-060819a3.png",
+    link: "https://boutique.carapretaoficial.com.br/maminha-angus-1180kg/product/221612"
+  },
+  { nome: "skirt steak angus ", imagem: "imagens/3dec7dc8e0.png", link: "https://boutique.carapretaoficial.com.br/skirt-steak-angus-706g/product/221602" },
+  { nome: "fraldinha angus ", imagem: "imagens/fraldinha-angus-975g-congelado-787976ce.png", link: "https://boutique.carapretaoficial.com.br/fraldinha-red-angus-610g/product/221611" },
+  { nome: "Tomahawk angus ", imagem: "imagens/tomahawk-angus-950g-congelado-d2ff6d5f.png", link: "https://boutique.carapretaoficial.com.br/tomahawk-angus-950g/product/221621" },
+  { nome: "cowboy angus ", imagem: "imagens/d13c4158c4.png", link: "https://boutique.carapretaoficial.com.br/cowboy-angus-750g/product/221620" },
+  { nome: "bisteca de porco", imagem: "imagens/ACOUGUE-BISTECA-DE-PORCO-S-CP-KG.webp", link: "https://www.swift.com.br/bisteca-swift-mais-1kg/p" },
+  { nome: "javali", imagem: "imagens/1591213c4d.png", link: "https://www.zezinhocarnes.com.br/produto/javali/" },
+  { nome: "coelho", imagem: "imagens/coelho-cortes-kg-617678-1.png", link: "https://www.zezinhocarnes.com.br/produto/coelho/" },
+  { nome: "capivara", imagem: "imagens/P046-capivara.jpg", link: "https://porcofeliz.com.br/capivara/" },
+  { nome: "peito de pato", imagem: "imagens/peito_picanha_pato_germania_1kg_24ff5ef4-d3d2-4d8a-ade5-2dac808fddec.jpg", link: "https://www.swift.com.br/peito-de-pato-swift-480g/p?idsku=1744&utm_source=Google_Shopping&gclid=CjwKCAjwsvujBhAXEiwA_UXnAJeIy_ze88tCuJlDNb4AAgsrgQbVvxnj3S_2bMl1jw5Dz86LVv3GDRoCcuAQAvD_BwE" },
+  { nome: "avestruz", imagem: "imagens/images (1)_jpgavestruz 2.png", link: "https://multsaudedistribuidora.com.br/product/carne-de-avestruz-com-osso/" },
+  { nome: "jacaré", imagem: "imagens/jacare.jpg", link: "https://padovanialimentos.com.br/product/jacare-cortes/" }
+
+
 ];
 
 function realizarPesquisa() {
@@ -75,19 +85,25 @@ function realizarPesquisa() {
 
   resultado.innerHTML = "";
 
-  let resultadosFiltrados = dados.filter(function(item) {
+  let resultadosFiltrados = dados.filter(function (item) {
     return item.nome.toLowerCase().includes(termoPesquisa);
   });
 
-  resultadosFiltrados.forEach(function(item) {
+  resultadosFiltrados.forEach(function (item) {
     let aResultado = document.createElement("a");
     aResultado.setAttribute("id", "link-pesquisa");
     aResultado.setAttribute("class", "link-pesquisa");
-    aResultado.style.height = "130px";
-    aResultado.style.width = "430px";
     aResultado.style.border = "2px solid gray";
     aResultado.style.borderRadius = "30px";
     aResultado.style.backgroundColor = "white"
+    aResultado.style.alignItems = "center"
+    resultado.style.display = "block";
+    resultado.style.flexWrap = "wrap"; // Se quiser quebrar para uma nova linha quando necessário
+    resultado.style.justifyContent = "center";
+    aResultado.style.boxSizing = "border-box";
+
+
+
     aResultado.href = item.link;
 
     let imagem = document.createElement("img");
@@ -100,13 +116,37 @@ function realizarPesquisa() {
     let nomeItem = document.createElement("span");
     nomeItem.setAttribute("class", "nome-pesquisa");
     nomeItem.style.marginTop = "0px";
-    
-    let paragrafoItem = document.createElement("p"); 
+
+    let paragrafoItem = document.createElement("p");
     paragrafoItem.setAttribute("class", "nome-paragrafo");
     paragrafoItem.textContent = item.nome;
-    nomeItem.appendChild(paragrafoItem); 
+    nomeItem.appendChild(paragrafoItem);
+
+    // Ajustando a div de resultado para exibir os itens na horizontal e centralizados
+    resultado.style.display = "flex";
+    resultado.style.flexWrap = "wrap"; // Permite que quebrem linha, se necessário
+    resultado.style.justifyContent = "center";
+    resultado.style.gap = "0px"; // Espaço entre os elementos
+
+    // Configurando os links (cada resultado)
+    aResultado.style.display = "flex";
+    aResultado.style.alignItems = "center"; // Alinha os itens verticalmente
+    aResultado.style.justifyContent = "flex-start"; // Mantém a imagem e texto alinhados
+    aResultado.style.padding = "10px";
+    aResultado.style.gap = "15px"; // Espaço entre imagem e texto
+
     
-    nomeItem.addEventListener("click", function() {
+   
+    imagem.style.objectFit = "cover";
+    imagem.style.borderRadius = "10px";
+
+    // Ajustando o nome
+    nomeItem.style.display = "flex";
+    nomeItem.style.alignItems = "center"; // Para garantir alinhamento
+    nomeItem.style.color = "#333";
+
+
+    nomeItem.addEventListener("click", function () {
       barraPesquisa.value = item.nome;
     });
 
@@ -114,20 +154,26 @@ function realizarPesquisa() {
 
     resultado.appendChild(aResultado);
   });
+  // if (window.innerWidth < 800) {
+  //   document.querySelectorAll(".link-pesquisa").forEach(function (item) {
+
+  //     el.style.width = "10%";
+  //   });
+  // }
+
 }
 
-barraPesquisa.addEventListener("input", function() {
+barraPesquisa.addEventListener("input", function () {
   realizarPesquisa();
 });
 
-barraPesquisa.addEventListener("input", function() {
+barraPesquisa.addEventListener("input", function () {
   if (barraPesquisa.value.trim() === '') {
     resultado.innerHTML = '';
   } else {
     realizarPesquisa();
   }
 });
-
 
 
 // CÓDIGO DO INPUT NOME
@@ -201,7 +247,7 @@ inputTel.addEventListener("blur", function () {
 // CÓDIGO CHECKBOX CARNES
 let ambas = 0
 function checkboxValidaAmbas() {
-  if ( checkboxAmbas.style.backgroundColor === "") {
+  if (checkboxAmbas.style.backgroundColor === "") {
     checkboxCarnesExoticas.style.backgroundColor = "blue";
     checkboxCarnesTradicionais.style.backgroundColor = "blue";
     checkboxAmbas.style.backgroundColor = "blue";
@@ -213,7 +259,7 @@ function checkboxValidaAmbas() {
     checkboxAmbas.style.backgroundColor = "";
     avisoCheckboxCarnes.style.display = "flex";
     return ambas = false;
-  } 
+  }
 }
 
 let exoticas = 0
@@ -249,7 +295,7 @@ function checkboxValidaTradicionais() {
     checkboxAmbas.style.backgroundColor = "";
     avisoCheckboxCarnes.style.display = "flex";
     return tradicionais = false;
-  } 
+  }
 }
 
 checkboxCarnesExoticas.addEventListener("click", checkboxValidaExoticas);
@@ -261,8 +307,8 @@ checkboxAmbas.addEventListener("click", checkboxValidaAmbas);
 // CÓDIGO CHECKBOX Comunicação
 
 function checkboxValidaEmail() {
-let email = 0;
-  
+  let email = 0;
+
   checkboxComunicacaoEmail.classList.toggle("checkDesmarcado");
   checkboxComunicacaoEmail.classList.toggle("checkMarcado");
 
@@ -289,17 +335,17 @@ let email = 0;
 
 
 function checkboxValidaSms() {
-let sms = 0
-  
+  let sms = 0
+
   checkboxComunicacaoSms.classList.toggle("checkDesmarcado");
   checkboxComunicacaoSms.classList.toggle("checkMarcado");
 
   if (checkboxComunicacaoSms.classList.contains("checkMarcado") && checkboxComunicacaoEmail.classList.contains("checkDesmarcado")) {
     checkboxComunicacaoTodos.setAttribute("class", "checkMetade");
   }
- if (checkboxComunicacaoSms.classList.contains("checkDesmarcado") && checkboxComunicacaoSms.classList.contains("checkMarcado")) {
+  if (checkboxComunicacaoSms.classList.contains("checkDesmarcado") && checkboxComunicacaoSms.classList.contains("checkMarcado")) {
     checkboxComunicacaoTodos.setAttribute("class", "checkMetade");
- }
+  }
   if (checkboxComunicacaoSms.classList.contains("checkMarcado") && checkboxComunicacaoEmail.classList.contains("checkMarcado")) {
     checkboxComunicacaoTodos.setAttribute("class", "checkMarcado");
   }
@@ -314,10 +360,10 @@ let sms = 0
     return sms = true;
   }
 }
- 
+
 function checkboxValidaTodos() {
-let todos = 0
-  
+  let todos = 0
+
   checkboxComunicacaoTodos.classList.toggle("checkDesmarcado");
   checkboxComunicacaoTodos.classList.toggle("checkMarcado");
 
@@ -346,7 +392,7 @@ checkboxComunicacaoEmail.addEventListener("click", checkboxValidaEmail);
 
 
 // CÓDIGO SELECT CARNES 
- let SelectItensCarnes = document.getElementsByClassName("select-itens")[0];
+let SelectItensCarnes = document.getElementsByClassName("select-itens")[0];
 let SelectBovinas = document.getElementsByClassName("select-carnes-bovinas")[0];
 let SelectSuinas = document.getElementsByClassName("select-carnes-suinas")[0];
 let SelectAves = document.getElementsByClassName("select-carnes-aves")[0];
@@ -371,7 +417,8 @@ function selectCarnes() {
 
   if (SelectItensCarnes.getAttribute("class") === "select-itens") {
     AvisoSelect.style.display = "flex";
-    
+    AvisoSelect.style.alignItems = "center"
+    AvisoSelect.style.flexWrap = "colum"
     return false;
   } else {
     AvisoSelect.style.display = "none";
@@ -381,10 +428,10 @@ function selectCarnes() {
 
 SelectItensCarnes.addEventListener("click", selectCarnes);
 
-let selectcarne= ""
+let selectcarne = ""
 function mudarItem(item) {
   SelectItensCarnes.innerHTML = item.innerHTML;
-  
+
   return selectcarne = true
 }
 
@@ -409,7 +456,7 @@ SelectOutros.addEventListener("click", function () {
 });
 
 let campoTexto = document.getElementsByClassName("campo-texto")[0];
-  let avisoTexto = document.getElementsByClassName("aviso-campo-texto")[0];
+let avisoTexto = document.getElementsByClassName("aviso-campo-texto")[0];
 
 function checkCampoTexto() {
   if (campoTexto.value.length < 5) {
@@ -431,11 +478,11 @@ botaoValidar.innerHTML = "Validar";
 
 function validarFormulario() {
   let camposPreenchidos = nome() && email() && telefone() && checkCampoTexto() && selectcarne;
-  let checkboxMarcado = exoticas || tradicionais || ambas || todos || email || sms ;
-  
+  let checkboxMarcado = exoticas || tradicionais || ambas || todos || email || sms;
+
   if (camposPreenchidos === true && checkboxMarcado === true) {
     botaoValidar.innerHTML = "Enviado";
-     botaoValidar.style.color = "green"
+    botaoValidar.style.color = "green"
   } else {
     botaoValidar.style.color = "red"
     botaoValidar.innerHTML = "Corrigir";
@@ -451,7 +498,7 @@ botaoValidar.addEventListener("click", validarFormulario);
 
 
 
- 
 
-  
+
+
 

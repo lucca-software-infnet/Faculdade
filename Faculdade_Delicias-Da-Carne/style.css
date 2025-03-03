@@ -5,6 +5,7 @@
   padding: 0px;
 }
 
+
 #whatsapp {
   position: fixed;
   width: 60px;
@@ -152,23 +153,23 @@ nav {
 #searchInput {
   width: 300px;
   height: 30px;
-  position: absolute;
-  margin-top: 0px;
   position: relative;
-  margin-left: 0px;
   z-index: 50;
+  top: 0%;
+  left: 80%;
+  transform: translate(-50%, -50%);
 }
 
 .pesquisa {
   background-color: white;
   display: none;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
 }
 
 #resultado {
-
-  margin-top: 0px;
-  margin-left: 0px;
-  position: relative;
+  position: absolute;
   z-index: 10;
 }
 
@@ -176,8 +177,10 @@ nav {
   position: absolute;
   flex-direction: column;
   height: 0px;
-  margin-top: 50px;
-  margin-left: -300px;
+  transform: translate(-50%, -50%);
+  right: 10%;
+  width: 0px;
+  width: auto;
 }
 
 .resultadoNone {
@@ -190,17 +193,19 @@ nav {
   position: relative;
 }
 
-.link-pesquisa {
+#link-pesquisa {
   display: block;
+  width: 300px;
+
 }
 
 .imagem-pesquisa-novo {
   position: relative;
-  margin-top: 25px;
-  margin-left: 30px;
   border-radius: 20px;
   height: 80px;
   width: 140px;
+  transform: translate(0%, 0%);
+  margin-left: 5%;
 }
 
 #lupa {
@@ -209,18 +214,15 @@ nav {
 
 
 .nome-pesquisa {
-  font-size: 15px;
-  position: absolute;
-  height: 130px;
-  width: 430px;
-  line-height: 120px;
-  margin-left: -170px;
+  position: relative;
+  width: auto;
 }
 
+
 .nome-paragrafo {
-  margin-left: 190px;
   font-size: 20px;
   color: black;
+
 }
 
 #menu-amburguer {
@@ -313,7 +315,6 @@ section {
 
 .carrosselInicial {
   width: 100%;
-  height: auto;
 }
 
 .carousel-inner .item {
@@ -430,6 +431,9 @@ section {
   position: relative;
   font-size: 50px;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #paragarfo-complemento-exoticas {
@@ -438,12 +442,8 @@ section {
   margin-top: 60%;
   z-index: 2;
   position: fixed;
-  /* ou position: absolute; */
-  /* centraliza verticalmente */
   left: 50%;
-  /* centraliza horizontalmente */
   transform: translate(-50%, -50%);
-  /* centraliza completamente */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -462,13 +462,9 @@ section {
   margin-top: 4vw;
   z-index: 2;
   position: fixed;
-  /* ou position: absolute; */
   top: 10%;
-  /* centraliza verticalmente */
   left: 70%;
-  /* centraliza horizontalmente */
   transform: translate(-50%, -50%);
-  /* centraliza completamente */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -504,13 +500,9 @@ section {
   margin-top: 4vw;
   z-index: 2;
   position: fixed;
-  /* ou position: absolute; */
   top: 40%;
-  /* centraliza verticalmente */
   left: 70%;
-  /* centraliza horizontalmente */
   transform: translate(-50%, -50%);
-  /* centraliza completamente */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1032,7 +1024,7 @@ section {
   width: 100%;
   text-align: center;
   margin-top: 10%;
-  
+
 }
 
 #botao-capivara {
@@ -1104,7 +1096,7 @@ section {
   padding-top: 150px;
   padding-bottom: 200px;
   max-width: 2000px;
-  
+
 }
 
 .grid-sobre {
@@ -1143,7 +1135,7 @@ section {
   color: #f5f5f5;
   position: relative;
   text-align: right;
-  
+
 }
 
 #titulo-acougue {
@@ -1192,7 +1184,7 @@ section {
 
 }
 
-#sobre-entrega-colum{
+#sobre-entrega-colum {
   position: relative;
   width: 50%;
   height: 26.6vw;
@@ -1322,7 +1314,7 @@ section {
   z-index: 10;
 }
 
-#formulario{
+#formulario {
   padding-top: 200px;
   padding-bottom: 200px;
   width: 100%;
@@ -1358,7 +1350,7 @@ section {
 
 }
 
-.div-centraliza-formulario{
+.div-centraliza-formulario {
   width: 600px;
   display: flex;
   align-items: center;
@@ -1367,7 +1359,7 @@ section {
   margin-top: 50px;
 }
 
-.div-nome-formulario{
+.div-nome-formulario {
   width: 600px;
   position: relative;
   display: flex;
@@ -1376,16 +1368,18 @@ section {
   align-items: flex-start;
 }
 
- #nomeLabel{
+#nomeLabel {
   position: relative;
 }
 
-#nome,#email,#telefone{
+#nome,
+#email,
+#telefone {
   position: relative;
   width: 100%;
   height: 40px;
-  
-} 
+
+}
 
 /* PARTE DE CHECKBOX */
 .checkbox-carnes-exóticas {
@@ -1400,7 +1394,7 @@ section {
 .container-checkbox {
   display: flex;
   align-items: center;
-  
+
   padding: 30px;
 }
 
@@ -1449,12 +1443,12 @@ section {
   background-color: white;
 }
 
-#spand-less{
+#spand-less {
   margin-left: 10%;
   margin-top: -5px;
 }
 
-.paragrafo-select-itens {
+#paragrafo-select-itens {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1466,7 +1460,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 350px;
+  width: auto;
   height: 50px;
   cursor: pointer;
   position: relative;
@@ -1493,10 +1487,6 @@ section {
 
 .esconde-itens {
   display: none;
-  border-radius: 20px;
-  width: 350px;
-  box-shadow: 0px 10px 50px gray;
-
 }
 
 /* Comunicação */
@@ -1536,7 +1526,7 @@ section {
   padding-top: 20px;
 }
 
-.div-checkbox{
+.div-checkbox {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -1666,8 +1656,8 @@ section {
   margin-top: 50px;
 }
 
-.div-text{
-  display:flex;
+.div-text {
+  display: flex;
   align-items: flex-start;
   flex-direction: column;
   width: auto;
@@ -1697,7 +1687,7 @@ section {
   position: relative;
 }
 
-.div-centraliza-select{
+.div-centraliza-select {
   width: 400px;
   display: flex;
   align-items: center;
@@ -1819,6 +1809,7 @@ section {
 ul {
   list-style: none;
 }
+
 #paragrafo-compras,
 li {
   font-size: 20px;
@@ -1948,7 +1939,7 @@ li {
   border-radius: 30px;
   background-color: #000;
   color: #f5f5f5;
-  
+
 }
 
 #email-footer {
@@ -1972,7 +1963,7 @@ li {
   height: 550px;
 }
 
-.flex{
+.flex {
   margin-top: 0px;
   margin-left: 0px;
   position: relative;
@@ -1990,7 +1981,7 @@ li {
     margin-left: 50px;
   }
 
-   
+
 
 }
 
@@ -2005,10 +1996,6 @@ li {
     margin-left: 20px;
   }
 
-  #container-resultado {
-    margin-left: -200px;
-  }
-
   #menu-amburguer {
     display: none;
   }
@@ -2021,7 +2008,7 @@ li {
     display: none;
   }
 
-  .div-centraliza-formulario{
+  .div-centraliza-formulario {
     width: 100%;
     margin-left: 0px;
     position: relative;
@@ -2032,77 +2019,77 @@ li {
     width: 90vw;
   }
 
-  .flex{
+  .flex {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
 
-  #div-imagem-footer{
+  #div-imagem-footer {
     position: relative;
     width: 100%;
     margin-left: 0px;
   }
 
-  #footer-compras{
+  #footer-compras {
     position: relative;
     width: 100%;
     margin-left: -3px;
-    border-top: 4px solid black ;
+    border-top: 4px solid black;
   }
 
-  #informacoes-compras{
+  #informacoes-compras {
     position: relative;
     width: 100%;
     margin-left: -1px;
     margin-top: 0px;
   }
 
-  #footer-saiba-mais{
+  #footer-saiba-mais {
     position: relative;
     width: 100%;
     margin-left: -1px;
     margin-top: 0px;
-    border-bottom: 2px solid black ;
+    border-bottom: 2px solid black;
   }
 
-  #informacoes-saibamais{
+  #informacoes-saibamais {
     position: relative;
     width: 100%;
     margin-left: -2px;
     margin-top: 0px;
   }
 
-  #div-forma-pagamento{
+  #div-forma-pagamento {
     position: relative;
     width: 100%;
     margin-left: 0px;
     margin-top: 0px;
-    border-top: 2px solid black ;
+    border-top: 2px solid black;
     border-bottom: 2.5px solid black;
   }
 
-  #informacoes-pagamento{
+  #informacoes-pagamento {
     position: relative;
     width: 100%;
     margin-left: 0px;
     margin-top: 0px;
   }
 
-  #redes{
+  #redes {
     border-top: 4px solid black;
     border-bottom: 4px solid black;
   }
 
-  #informacoes-pagamento{
+  #informacoes-pagamento {
     border-bottom: 4px solid black;
   }
 
-   footer {
+  footer {
     height: 2000px;
   }
 
-  
+
 }
 
 @media (max-width: 1500px) {
@@ -2119,7 +2106,7 @@ li {
   #div-carne-flutuando {
     display: none;
   }
-  
+
   #card-paragrado-carnes-nobres {
     width: 90%;
     margin-left: 0px;
@@ -2138,8 +2125,8 @@ li {
     font-size: 28px;
     margin-top: 200px;
     margin-left: -50px;
-  } 
-  
+  }
+
   .grid-carnes-nobres {
     width: 100%;
     max-width: 2000px;
@@ -2164,27 +2151,27 @@ li {
     margin-left: -50;
   }
 
- 
+
 
   .exoticas-grid {
     grid-template-columns: 100%;
   }
 
-  
+
 
   #homem-segurando-porco {
     display: none;
   }
 
-  .centraliza-formulario{
+  .centraliza-formulario {
     width: 100%;
   }
 
-  #card-paragrafo-exoticas{
+  #card-paragrafo-exoticas {
     width: 90%;
   }
 
-  .container-texte-exoticas{
+  .container-texte-exoticas {
     width: 100%;
   }
 
@@ -2217,7 +2204,7 @@ li {
     width: 65vw;
     height: 50vw;
   }
-  
+
 
 }
 
@@ -2276,6 +2263,14 @@ li {
     margin-left: -4px;
   }
 
+  #paragrafo-atendimento-1,
+  #paragrafo-atendimento-2,
+  #paragrafo-atendimento-3 {
+    font-size: 1.3vw;
+    line-height: 100%;
+    margin-top: -5px;
+  }
+
   #paragrafo-carnes-exoticas-1,
   #paragrafo-carnes-exoticas-2,
   #paragrafo-carnes-exoticas-3,
@@ -2284,7 +2279,7 @@ li {
     font-size: 20px;
   }
 
-  .div-nome-formulario{
+  .div-nome-formulario {
     width: 80%;
     position: relative;
     display: flex;
@@ -2293,7 +2288,7 @@ li {
     align-items: flex-start;
   }
 
-  .container-checkbox{
+  .container-checkbox {
     width: 100%;
     display: flex;
     align-items: center;
@@ -2303,44 +2298,44 @@ li {
   .paragrafo-checkbox {
     margin-left: 15px;
     font-size: clamp(12px, 2vw, 24px);
-    
+
   }
 
-  .div-centraliza-select{
+  .div-centraliza-select {
     width: 100%;
   }
 
-  .div-checkbox{
+  .div-checkbox {
     width: 100%;
   }
 
-  #checkboxLabel{
+  #checkboxLabel {
     margin-left: 7%;
   }
 
-  .container-comunicao{
+  .container-comunicao {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
   }
 
-  .div-text{
+  .div-text {
     width: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  #campo-texto{
+  #campo-texto {
     width: 80%;
   }
 
-  .button{
+  .button {
     width: 80%;
   }
 
-  #campo-texto-label{
+  #campo-texto-label {
     margin-left: -60%;
   }
 
@@ -2350,6 +2345,21 @@ li {
 
   footer {
     height: 2000px;
+  }
+
+  #paragarfo-complemento-exoticas {
+    top: -150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #texto-Carnes-Exoticas {
+    transform: translate(-50%, -50%);
+    left: 35%;
+    top: 35%;
   }
 
 }
@@ -2460,100 +2470,100 @@ li {
     margin-left: 230px;
   }
 
-  #paragrafo-acougue{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  height: auto;
-  float: none;
-  width: 90%;
-  height: auto;
-  padding-bottom: 10px;
+  #paragrafo-acougue {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    float: none;
+    width: 90%;
+    height: auto;
+    padding-bottom: 10px;
   }
 
-  #div-sobre-acougue-2{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  height: auto;
-  width: 100%;
+  #div-sobre-acougue-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
   }
 
-  #div-sobre-acougue-3{
+  #div-sobre-acougue-3 {
     display: flex;
     align-items: center;
     flex-direction: column;
     height: auto;
   }
 
-  #sobre-acougue{
+  #sobre-acougue {
     float: none;
     width: 90%;
     height: 60vw;
   }
 
 
-  #sobre-entrega-colum{
+  #sobre-entrega-colum {
     position: relative;
     width: 90%;
     height: 60vw;
     display: flex;
   }
 
-  #sobre-entrega{
+  #sobre-entrega {
     display: none;
   }
 
-  .grid-sobre{
+  .grid-sobre {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
   }
 
-  #paragrafo-caminhao{
+  #paragrafo-caminhao {
     width: 90%;
     border-right: #bf2708 2px solid;
     height: auto;
   }
 
-  #sua-casa{
+  #sua-casa {
     width: 90%;
     height: 60vw;
   }
 
-  #paragrafo-casa{
+  #paragrafo-casa {
     width: 90%;
     border-left: solid 2px #bf2708;
     height: auto;
   }
 
-  #paragrafo-entrega-caminhao{
+  #paragrafo-entrega-caminhao {
     width: 90%;
     font-size: 3vw;
     height: auto;
     position: relative;
   }
 
-  #titulo-entregas{
+  #titulo-entregas {
     font-size: 3vw;
     height: auto;
     position: relative;
   }
 
-  #paragrafo-acougue{
+  #paragrafo-acougue {
     border-left: #bf2708 solid 2px;
     border-top: none;
   }
 
-  #paragrafo-caminhao{
+  #paragrafo-caminhao {
     width: 90%;
     border-left: solid 2px #bf2708;
   }
 
-  #titulo-acougue{
+  #titulo-acougue {
     font-size: 3vw;
-    margin-left: 60% ;
+    margin-left: 60%;
     text-align: right;
   }
 
@@ -2562,13 +2572,13 @@ li {
     margin-right: 3%;
     padding-left: 3%;
   }
-  
+
   #historia-delicias-da-carne-2 {
     font-size: 2.5vw;
     margin-right: 3%;
     padding-left: 3%;
   }
-  
+
   #historia-delicias-da-carne-3 {
     font-size: 2.5vw;
     margin-right: 2.7vw;
@@ -2584,12 +2594,39 @@ li {
     margin-top: 0px;
   }
 
-  #titulo-atendimento{
+  #titulo-atendimento {
     font-size: 3vw;
     margin-left: 5%;
   }
 
 }
+
+@media (max-width: 700px) {
+
+  #container-resultado {
+    right: 0%;
+  }
+
+  #searchInput {
+    width: 50vw;
+  }
+
+  #link-pesquisa {
+    width: 50vw;
+    height: 20vw;
+  }
+
+  #imagem-pesquisa-novo {
+    height: 15vw;
+
+  }
+
+  .nome-paragrafo {
+    font-size: 3vw;
+  }
+
+}
+
 
 @media (max-width: 600px) {
 
@@ -2630,7 +2667,7 @@ li {
 
   #paragrafo-entrega {
     font-size: 1.3vw;
-    top: 50%;
+
   }
 
   #paragarfo-complemento-nobres {
@@ -2644,12 +2681,77 @@ li {
   }
 
   #paragarfo-complemento-exoticas {
-
-    margin-top: 80%;
+    top: -150%;
+    /* centraliza verticalmente */
+    left: 50%;
+    /* centraliza horizontalmente */
+    transform: translate(-50%, -50%);
+    /* centraliza completamente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .grid-cars-exoticas {
     grid-template-columns: repeat(auto-fill, 400px);
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  #paragrafo-entrega {
+    margin-top: 5vw;
+  }
+
+  #bandeira-esquerda {
+    width: 14vw;
+  }
+
+  #bandeira-direita {
+    width: 14vw;
+  }
+
+  #titulo-carnes-nobres {
+    width: 53vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+  }
+
+  #borda-h2 {
+    margin-bottom: 2%;
+    margin-left: 0px;
+  }
+
+  #paragrafo-Carnes-Nobres1 {
+    font-size: 5vw;
+  }
+
+  #paragrafo-Carnes-Nobres2 {
+    font-size: 5vw;
+  }
+
+  #paragrafo-Carnes-Nobres3 {
+    font-size: 5vw;
+  }
+
+  #paragrafo-Carnes-Nobres4 {
+    font-size: 5vw;
+  }
+
+  #card-paragrado-carnes-nobres {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+  }
+
+  .card-exoticas {
+    width: 70vw;
+  }
+
+  #card-carnes-exoticas-7 {
+    padding-bottom: 10%;
   }
 
 
@@ -2658,7 +2760,7 @@ li {
 @media (min-width: 2000px) {
 
 
-  #imagem-formulario{
+  #imagem-formulario {
     margin-left: 1200px;
   }
 
@@ -2726,7 +2828,7 @@ li {
     position: relative;
   }
 
-  
+
 
   #paragrafo-entrega-caminhao {
     position: absolute;
@@ -2740,15 +2842,14 @@ li {
     font-size: 25px;
     position: relative;
     margin-right: 60px
-    
   }
-  
+
   #historia-delicias-da-carne-2 {
     position: relative;
     font-size: 25px;
     margin-right: 60px
   }
-  
+
   #historia-delicias-da-carne-3 {
     position: relative;
     font-size: 25px;
@@ -2777,7 +2878,7 @@ li {
     height: 600px;
     font-size: 27px;
     margin-left: 0px;
-    
+
   }
 
   #sobre-entrega {
@@ -2800,5 +2901,65 @@ li {
   #google-maps {
     margin-left: 300px;
   }
+
+}
+
+@media (max-width: 400px) {
+
+  #texto-Carnes-Exoticas {
+    margin-top: 3vw;
+  }
+
+  #paragrafo-entrega {
+    margin-top: 7vw;
+  }
+
+  #paragarfo-complemento-nobres {
+    font-size: 3vw;
+    top: 10%;
+    left: 0%;
+    margin-left: 35vw;
+  }
+
+  .card-exoticas {
+    height: auto;
+  }
+
+  #centro {
+    width: 100%;
+    position: absolute;
+  }
+
+  .alinhamento-h2 {
+    width: 100%;
+  }
+
+  .largura-exoticas {
+    width: 100%;
+  }
+
+  .select-itens {
+    width: 70vw;
+    padding-top: 2%;
+
+  }
+
+  #container-resultado {
+    right: 10%;
+  }
+
+  #paragrafo-select-itens {
+    font-size: 3.5vw;
+    margin-left: 20%;
+  }
+
+  .container-select-itens {
+    width: 70vw;
+  }
+
+  .container-itens {
+    width: 70vw;
+  }
+
 
 }
