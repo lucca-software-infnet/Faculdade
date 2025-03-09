@@ -49,7 +49,12 @@ header li {
   display: flex;
   align-items: center;
   z-index: 1;
+  text-decoration: none;
+}
 
+ul, li, a {
+  text-decoration: none; 
+  list-style: none;
 }
 
 header {
@@ -272,6 +277,7 @@ nav {
 }
 
 .menu-lista {
+  list-style: none;
   border-top: 2px solid #CBA075;
   background-color: #bf2708;
   margin-left: -10px;
@@ -381,8 +387,6 @@ section {
 
 .item-exoticas {
   position: relative;
-  margin-top: 100vw;
-  margin-left: -100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -394,23 +398,25 @@ section {
   border: 2px solid white;
   width: 500px;
   height: 100px;
-  margin-left: -20vw;
-  margin-top: 3vw;
-  z-index: 2;
   position: fixed;
-  top: 40%;
-  left: 70%;
-  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-size: 40px;
+  top: 35%;
+  
+  transform: translate(-0%,0%);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #centralizando-carrossel-exoticas {
-  margin-left: 0px;
-  margin-top: 0px;
   width: 100vw;
-  height: 800px;
+  max-width: 2150px;
+  height: 100%;
+  transform: translate(-0%,0%);
+   top: 0%;
+  left: 0%;
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -438,16 +444,17 @@ section {
 
 #paragarfo-complemento-exoticas {
   width: 100vw;
-  height: 100px;
-  margin-top: 60%;
+  max-width: 2050px;
+  height: 20%;
   z-index: 2;
   position: fixed;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(0%, 0%);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  font-size: 2vw;
+  font-size: clamp(10px, 50px, 50px);
+  left: 0%;
+  top: 55%;
 }
 
 
@@ -459,11 +466,11 @@ section {
   height: auto;
   padding: 5px;
   margin-left: 9vw;
-  margin-top: 4vw;
+  font-size: clamp(10px, 50px, 50px);
   z-index: 2;
   position: fixed;
-  top: 10%;
-  left: 70%;
+  top: 15%;
+  left: 71.5%;
   transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
@@ -485,24 +492,29 @@ section {
 }
 
 #centraliza-carrossel-entrega {
+  width: 100vw;
+  max-width: 2150px;
+  height: 100%;
+  transform: translate(-0%,0%);
+   top: 0%;
+  left: 0%;
+  position: absolute;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-
 }
 
 #paragrafo-entrega {
 
   width: 31.8vw;
   height: auto;
-  padding: 5px;
+  padding: 1vw;
   margin-left: 9vw;
-  margin-top: 4vw;
   z-index: 2;
   position: fixed;
-  top: 40%;
-  left: 70%;
-  transform: translate(-50%, -50%);
+  top: 25%;
+  left: 55.5%;
+  transform: translate(0%, 0%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -749,13 +761,21 @@ section {
   width: 100%;
 }
 
-
-
 .card {
   background-color: #9e2810cb;
-  height: auto;
-  width: 400px;
+  max-width: 400px;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+}
 
+#button-nobres{
+  color: #CBA075;
+}
+
+.botao-nobres{
+  transform: translate(0,0);
+  margin-top: 2vw;
 }
 
 #move-botao2 {
@@ -779,18 +799,12 @@ section {
 
 .paragrafo-card-tradicionais {
   color: white;
-  padding-bottom: 20px;
   margin-left: 10px;
   font-size: 16px;
-
 }
 
-#paragradoBananinha {
-  padding-bottom: 30px;
-}
-
-#paragrafoAncho {
-  padding-bottom: 10px;
+#carouselExample{
+  margin-top: 300px;
 }
 
 .div-homem-porno {
@@ -798,39 +812,8 @@ section {
   padding-bottom: 20px;
 }
 
-#botao-flat-iron {
-  margin-top: -10px;
-}
-
-#botao-cowboy {
-  margin-top: 0px;
-}
-
-#botao-picanha {
-  margin-top: 0px;
-}
-
-#cowboyAngus {
-  padding-top: 10px;
-  padding-bottom: 22px;
-}
-
-#paragrafoCowboyangus {
-  padding-bottom: 40px;
-}
-
-#picanhaAngus {
-  padding-top: 10px;
-  padding-bottom: 22px;
-}
-
 #paragrafoPicanhaangus {
   padding-bottom: 40px;
-}
-
-#denverAngus903 {
-  padding-top: 10px;
-  padding-bottom: 22px;
 }
 
 #paragrafoDenverangus903 {
@@ -841,18 +824,18 @@ section {
   margin-top: -30px;
 }
 
-#fraldinhaAngus {
-  padding-top: 10px;
-  padding-bottom: 22px;
-}
-
 #paragrafoFraldinhaAngus {
-  padding-bottom: 25px;
+  padding-bottom: 2.5vw;
 }
 
-#tomahawk-angus {
-  padding-bottom: 10px;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ff0000; /* Cor desejada */
 }
+
+
+
+
 
 .botao-bananinha {
   position: relative;
@@ -989,6 +972,8 @@ section {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: black;
   margin-bottom: 200px;
+  display: flex;
+    flex-direction: column;
 
 }
 
@@ -1006,6 +991,9 @@ section {
 
 .card-body {
   padding: 20px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
 }
 
 .card-title-2 {
@@ -2000,9 +1988,9 @@ li {
     display: none;
   }
 
-  #paragarfo-complemento-exoticas {
+   #paragarfo-complemento-exoticas {
     font-size: 3vw;
-  }
+  } 
 
   #imagem-formulario {
     display: none;
@@ -2347,13 +2335,8 @@ li {
     height: 2000px;
   }
 
-  #paragarfo-complemento-exoticas {
-    top: -150%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  #carrossel-Carnes-Exoticas{
+    font-size: 4.5vw;
   }
 
   #texto-Carnes-Exoticas {
@@ -2364,43 +2347,7 @@ li {
 
 }
 
-@media (max-width: 767px) {
-  .carousel-inner .carousel-item>div {
-    display: none;
-  }
 
-  .carousel-inner .carousel-item>div:first-child {
-    display: block;
-  }
-}
-
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-  display: flex;
-
-}
-
-@media (min-width: 768px) {
-
-  .carousel-inner .carousel-item-end.active,
-  .carousel-inner .carousel-item-next {
-    transform: translateX(25%);
-  }
-
-  .carousel-inner .carousel-item-start.active,
-  .carousel-inner .carousel-item-prev {
-    transform: translateX(-25%);
-  }
-
-
-
-}
-
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start {
-  transform: translateX(0);
-}
 
 @media (max-width: 768px) {
 
@@ -2634,7 +2581,7 @@ li {
     width: 15vw;
     height: 15vw;
     margin-left: 10px;
-  }
+   } 
 
   .logo {
     font-size: 3vw;
@@ -2661,35 +2608,13 @@ li {
     transform: translate(-50%, -50%);
   }
 
-  #carrossel-entrega {
-    font-size: 2vw;
-  }
-
-  #paragrafo-entrega {
-    font-size: 1.3vw;
-
-  }
-
   #paragarfo-complemento-nobres {
     position: absolute;
     font-size: 15px;
     margin-top: 100px;
     margin-left: 150px;
-    transform: translate(-50%, -50%);
     width: 100%;
     padding-right: 15px;
-  }
-
-  #paragarfo-complemento-exoticas {
-    top: -150%;
-    /* centraliza verticalmente */
-    left: 50%;
-    /* centraliza horizontalmente */
-    transform: translate(-50%, -50%);
-    /* centraliza completamente */
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .grid-cars-exoticas {
@@ -2698,10 +2623,6 @@ li {
 
   .carousel-indicators {
     display: none;
-  }
-
-  #paragrafo-entrega {
-    margin-top: 5vw;
   }
 
   #bandeira-esquerda {
@@ -2787,21 +2708,10 @@ li {
     flex-direction: column;
   }
 
-  #paragarfo-complemento-exoticas {
-    font-size: 50px;
-  }
+  
 
   #texto-Carnes-Exoticas {
     font-size: 55px;
-  }
-
-  #carrossel-Carnes-Exoticas {
-    position: absolute;
-    margin-left: 100px;
-    margin-top: 200px;
-    top: 0%;
-    left: 0%;
-    transform: translate(50%, 50%);
   }
 
   #homem-segurando-porco {
@@ -2908,10 +2818,6 @@ li {
 
   #texto-Carnes-Exoticas {
     margin-top: 3vw;
-  }
-
-  #paragrafo-entrega {
-    margin-top: 7vw;
   }
 
   #paragarfo-complemento-nobres {
