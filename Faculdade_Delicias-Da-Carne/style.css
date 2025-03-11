@@ -1132,6 +1132,7 @@ section {
   font-family: 'Anton', sans-serif;
   font-style: italic;
   color: #CBA075;
+  margin-top: 3%;
 }
 
 #historia-delicias-da-carne-1 {
@@ -2203,6 +2204,11 @@ li {
     height: 10vw;
   }
 
+  #paragarfo-complemento-exoticas {
+    font-size: 3vw;
+    top: 65%;
+  } 
+
   #texto-Carnes-Exoticas {
     font-size: 5vw;
   }
@@ -2545,6 +2551,15 @@ li {
     font-size: 3vw;
     margin-left: 5%;
   }
+
+  #carouselExample{
+    margin-left: 20%;
+  }
+  #button-nobres{
+    position: absolute;
+    margin-left: -25%;
+  }
+
 
 }
 
